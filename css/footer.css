@@ -1,0 +1,122 @@
+:root{
+	--theme-color: #CC9933;
+	--theme-redish: #CB4C33;
+    --theme-brown: #b59972;
+    --theme-darkbrown: #3d201a;
+}
+
+.col-ms-4{
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after the columns */
+.footer-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer{
+    padding-top: 150px;
+    padding-bottom: 10px;
+    background: #30302f;
+}
+
+.fa-heart, footer p span{
+    color: var(--theme-color);
+}
+
+.col-ms-4 div{
+    padding: 20px;
+    border: 2px solid var(--theme-color);
+    margin: 0 20px 80px 20px;
+    height: 230px
+}
+
+.col-ms-4 div a{
+    display: block;
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer article div h4{
+    text-align: center;
+    color: white;
+}
+
+footer > p, footer section article div p{
+    color: gray;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer hr{
+    border: 1px solid var(--theme-color);
+}
+
+@media screen and (max-width: 1024px) {
+    footer .col-ms-4{
+        width: 50%;
+    }
+
+    footer .col-ms-4 div h4{
+        font-size: 30px;
+     }
+
+     .col-ms-4 div{
+        height: 300px
+    }
+
+    .col-ms-4 a, .col-ms-4 p{
+        font-size: 24px;
+    }
+
+    .wp{
+        line-height: 10px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    footer .col-ms-4{
+        width: 50%;
+    }
+
+    footer .col-ms-4 div h4{
+        font-size: 24px;
+     }
+
+     .col-ms-4 a, .col-ms-4 p{
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    footer .col-ms-4{
+        width: 100%;
+    }
+   
+}
+
+@media screen and (max-width: 320px) {
+    .col-ms-4 div h4{
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .col-ms-4 div a{
+        font-size:10;
+    }
+
+    footer > p, footer section article div p{
+        color: gray;
+        text-align: center;
+        margin-left: 1px;
+        margin-right: 1px;
+        padding: 0;
+    }
+
+}

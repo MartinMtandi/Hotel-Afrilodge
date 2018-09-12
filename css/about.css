@@ -1,0 +1,399 @@
+:root{
+	--theme-color: #CC9933;
+	--theme-redish: #CB4C33;
+    --theme-brown: #b59972;
+    --theme-darkbrown: #3d201a;
+}
+
+.afri-col-2{
+    float: left;
+    width: 50%;
+}
+
+.about-afrilodge{
+    padding: 80px 0;
+}
+
+.about-afrilodge:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.afri-col-2 .afri-img-wrapper .img-sm-4 div{
+    float: left;
+    width: 50%;
+}
+
+.afri-col-2 .afri-img-wrapper .img-sm-4:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.afri-col-2 .afri-img-wrapper .img-sm-4 div img{
+    width: 300px;
+    border: 2px solid var(--theme-darkbrown);
+    border-radius: 10px;
+}
+
+.afri-col-2 .afri-img-wrapper .img-sm-4 #img-top img{
+    display: block;
+    margin-right: 5px;
+    margin-left: auto;
+    margin-bottom: 5px;
+}
+
+.afri-col-2 .afri-wrapper h2, .afri-col-2 .afri-wrapper h1{
+    text-align: center;
+}
+
+.afri-col-2 .afri-wrapper p{
+    margin: 0 50px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.afri-col-2 .afri-wrapper button{
+margin-top: 30px;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1246px) {
+    button{
+        font-size: 1.4em;
+    }
+    .afri-col-2{
+        width: 100%;
+    }
+
+    .afri-img-wrapper{
+        padding-top: 30px;
+    }
+
+    .img-sm-4{
+        background: var(--theme-darkbrown);
+        margin: 0 30px;
+        padding: 30px 30px;
+    }
+
+    #img-top img, #img-bottom img{
+        border: 3px solid white;
+    }
+
+    .afri-col-2 .afri-wrapper h1{
+        font-size: 36px;
+    }
+
+    .afri-col-2 .afri-wrapper p{
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .afri-col-2{
+        width: 100%;
+    }
+
+    button{
+        font-size: 1em;
+    }
+
+    .afri-col-2 .afri-wrapper h1{
+        font-size: 32px;
+    }
+
+    .afri-col-2 .afri-wrapper h2{
+        font-size: 20px;
+    }
+
+    .afri-col-2 .afri-wrapper p{
+        font-size: 18px;
+        line-height: 28px;
+        margin: 0 24px;
+    }
+
+
+    .afri-img-wrapper{
+        padding-top: 30px;
+    }
+
+    .img-sm-4{
+        background: var(--theme-darkbrown);
+        margin: 0 30px;
+        padding: 30px 30px;
+    }
+
+    #img-top img, #img-bottom img{
+        border: 3px solid white;
+    }
+
+    .afri-col-2 .afri-wrapper p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .afri-col-2 .afri-img-wrapper .img-sm-4 div img{
+        width: 300px;
+        margin-left: 5px;
+        margin-right: 5px;
+        
+    }
+}
+@media screen and (max-width: 720px){
+    .afri-col-2 .afri-img-wrapper .img-sm-4 div img{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .afri-col-2{
+        width: 100%;
+    }
+
+    .afri-col-2 .afri-img-wrapper .img-sm-4 div{
+        width: 100%;
+    }
+
+    .afri-col-2 .afri-img-wrapper .img-sm-4 #img-top img{
+        margin-right: auto;
+        margin-bottom: 0px;
+    }
+
+    .afri-col-2 .afri-img-wrapper .img-sm-4 div img{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        border: none;
+        width: 320px;
+    }
+
+    .afri-col-2{
+        padding: 20px 0;
+    }
+
+    .img-sm-4{
+        background: white;
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+
+    button{
+        font-size: 14px;
+    }
+
+
+}
+
+@media screen and (max-width: 320px) {
+    .afri-col-2 .afri-wrapper p{
+        font-size: 14px;
+    }
+
+    .afri-col-2 .afri-wrapper h2{
+        font-size: 16px;
+    }
+
+    .afri-col-2 .afri-wrapper h1{
+        font-size: 24px;
+    }
+
+    button{
+        font-size: 12px;
+    }
+
+    .afri-col-2 .afri-img-wrapper .img-sm-4 div img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+}
+
+
+
+/******* About The Hotel ***********/
+.hotel-containers{
+    float: left;
+}
+
+#hotel-box1{
+    width: 55%;
+}
+
+#hotel-box2{
+    margin-top: 35px;
+    width: 45%;
+}
+
+#hotel-box2 img{
+    height: 230px;
+    display: block;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.about-hotel-wrapper span{
+    font-size: 0.8em;
+}
+
+.about-hotel-main:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.about-hotel-main{
+    background: #f5eeee;
+    padding: 80px 0;
+}
+
+.about-hotel-main h2, .about-hotel-main h1{
+    text-align: center;
+}
+
+.hotel-containers .about-hotel-wrapper img{
+    width: 600px;
+}
+
+.about-hotel-wrapper{
+    width: 600px;
+    border: none;
+    margin-left: auto;
+    margin-right: 0px;
+    background: white;
+    padding-bottom: 20px;
+}
+
+#btn-hotel{
+    display: block;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.about-hotel-wrapper p{
+    margin: 20px;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 1230px){
+    #hotel-box1{
+        width: 100%;
+    }
+
+    .about-hotel-main h1{
+        font-size: 36px;
+    }
+
+    .hotel-containers .about-hotel-wrapper img{
+        width: 800px;
+    }
+    
+    .about-hotel-wrapper{
+        width: 800px;
+    }
+
+    .about-hotel-wrapper{
+        margin-right: auto;
+    }
+    #hotel-box2{
+        width: 100%;
+    }
+    #hotel-box2 img{
+        float: left;
+        width: 30%;
+        height: 180px;
+        margin-top: 30px;
+    }
+
+    #hotel-box2:after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    .about-hotel-wrapper p{
+        font-size: 23px;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width: 770px){
+    .about-hotel-main h1{
+        font-size: 34px;
+    }
+
+    .hotel-containers .about-hotel-wrapper img{
+        width: 600px;
+    }
+    
+    .about-hotel-wrapper{
+        width: 600px;
+    }
+
+    .about-hotel-wrapper p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    #hotel-box2 img{
+        float: left;
+        width: 30%;
+        height: 180px;
+        margin-top: 30px;
+    }
+
+    #hotel-box2:after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 640px) {
+   #hotel-box1, #hotel-box2{
+       width: 100%;
+   }
+
+
+   .hotel-containers .about-hotel-wrapper img, .about-hotel-wrapper{
+    width: 340px;
+ }
+
+ .about-hotel-wrapper{
+     margin-right: auto;
+     margin-bottom: 20px;
+ }
+
+ #hotel-box2 img{
+    display: block;
+    width: 100%;
+    height: 220px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .about-hotel-wrapper p{
+    font-size: 18px;
+    line-height: 24px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .hotel-containers .about-hotel-wrapper img, .about-hotel-wrapper{
+        width: 300px;
+     }
+
+     #hotel-box2 img{
+        width: 314px;
+    }
+}

@@ -1,0 +1,225 @@
+.lodge-parallax{ 
+    /* The image used */
+    
+    /* Set a specific height */
+    height: 100vh; 
+    line-height: 100vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.handler h2 span{
+    font-size: 20px;
+}
+#welcome-lodge{
+    background-image: url("../images/parallex/IMG-20180902-WA0017.jpg");
+}
+
+.booking{
+    background-image: url("../images/sliders/image1.jpg");
+}
+
+.welcome-hotel{
+    background-image: url("../images/parallex/IMG-20180902-WA0005.jpg");
+}
+
+.lodge-parallax p{
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 36px;
+    color: white;
+    padding: 20px 30px;
+    background: rgba(0, 0, 0, .6);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.lg-rm-wrapper{
+    float: left;
+    width: 33.3%;
+}
+.lg-rm-wrapper .handler{
+    border: 1px solid #e9e6e6;
+    width: 350px;
+    display: block;
+    margin: 13px auto;
+    background: #f7f5f5;
+}
+
+.afrilodge-rm-container{
+    padding: 150px 100px 100px 100px;
+    background: #ecebeb;
+}
+.afrilodge-rm-wrapper:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.handler h2, .handler h3, .handler p{
+    padding: 0 20px;
+}
+
+.handler p{
+    text-align: justify;
+    line-height: 30px;
+}
+
+.handler button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.afrilodge-rm-container .afrilodge-rm-wrapper .lg-rm-wrapper img{
+    width: 350px;
+}
+
+
+/******Media Query********/
+@media screen and (max-width: 1024px) {
+    .lg-rm-wrapper{
+        width: 50%;
+    }
+    
+    .afrilodge-rm-container .afrilodge-rm-wrapper .lg-rm-wrapper img{
+        width: 450px;
+    }
+
+    .lg-rm-wrapper .handler{
+        width: 450px;
+    }
+
+    .afrilodge-rm-container{
+        padding: 150px 0px 100px 0px;
+    }
+
+    .handler p{
+        font-size: 24px;
+        letter-spacing: 1px;
+        line-height: 36px;
+    }
+
+    .handler button{
+        font-size: 20px;
+    }
+
+    .handler h2{
+        font-size: 28px;
+    }
+
+    .handler h3{
+        font-size: 23px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 823px) {
+    .lg-rm-wrapper{
+        width: 50%;
+    }
+    
+    .afrilodge-rm-container .afrilodge-rm-wrapper .lg-rm-wrapper img{
+        width: 330px;
+    }
+
+    .lg-rm-wrapper .handler{
+        width: 330px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .lg-rm-wrapper{
+        width: 50%;
+    }
+    
+    .afrilodge-rm-container .afrilodge-rm-wrapper .lg-rm-wrapper img{
+        width: 350px;
+    }
+
+    .lg-rm-wrapper .handler{
+        width: 350px;
+    }
+
+    .afrilodge-rm-container{
+        padding: 150px 0px 100px 0px;
+    }
+
+    .handler p{
+        font-size: 19px;
+        letter-spacing: 1px;
+    }
+    
+}
+
+@media screen and (max-width: 667px) {
+    .lg-rm-wrapper{
+        width: 50%;
+    }
+    
+    .afrilodge-rm-container .afrilodge-rm-wrapper .lg-rm-wrapper img{
+        width: 300px;
+    }
+
+    .lg-rm-wrapper .handler{
+        width: 300px;
+    }
+
+    
+}
+
+@media screen and (max-width: 640px) {
+    .lg-rm-wrapper{
+        width: 100%;
+    }
+
+    .afrilodge-rm-container .afrilodge-rm-wrapper .lg-rm-wrapper img{
+        width: 320px;
+    }
+
+    .lg-rm-wrapper .handler{
+        width: 320px;
+    }
+
+
+    .afrilodge-rm-container{
+        padding: 150px 0px 100px 0px;
+    }
+
+    .lodge-parallax p{
+        font-size: 28px;
+        padding: 8px 16px;
+    }
+
+    .handler p{
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 36px;
+    }
+
+    .handler button{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .lodge-parallax p{
+        font-size: 22px;
+        padding: 6px 12px;
+    }
+
+    .afrilodge-rm-container .afrilodge-rm-wrapper .lg-rm-wrapper img{
+        width: 300px;
+    }
+
+    .lg-rm-wrapper .handler{
+        width: 300px;
+    }
+    
+}

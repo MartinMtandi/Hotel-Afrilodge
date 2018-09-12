@@ -1,0 +1,122 @@
+input[type=text],input[type=email], input[type=date], textarea, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.booking-col-2, .check, .rooms, .guest{
+    float: left;
+    width: 50%;
+}
+
+.booking-wrapper:after, .flex-check:after, .flex-rooms:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.booking-container{
+    padding: 100px 80px;
+    background: #f7f5f5;
+}
+
+.col-2-wrap{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+ 
+}
+
+#checkin, .rooms div{
+    margin-right: 10px;
+}
+
+#checkout, .guest div{
+    margin-left: 10px;
+}
+
+.col-2-wrap div{
+    padding-bottom: 20px;
+    background: #ffffff;
+}
+
+.col-2-wrap div h2, .col-2-wrap div h3, .col-2-wrap div p, .col-2-wrap div button{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.col-2-wrap div button{
+    margin-top: 30px;
+}
+
+.col-2-wrap img{
+    width: 450px;
+}
+
+.booking-col-2 .col-2-wrap h2 span{
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+    .booking-col-2{
+        width: 100%;
+    }
+
+    .booking-col-2 form h1, .booking-col-2 .col-2-wrap h2{
+        font-size: 36px;
+    }
+}
+
+
+
+@media screen and (max-width: 770px) {
+    .booking-col-2{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .booking-col-2, .check, .rooms, .guest{
+        width: 100%;
+    }
+
+    .col-2-wrap, .col-2-wrap img{
+        width: 345px;
+    }
+
+    .booking-container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #checkin, .rooms div{
+        margin-right: 0px;
+    }
+    
+    #checkout, .guest div{
+        margin-left: 0px;
+    }
+    
+}
+
+
+@media screen and (max-width: 360px) {
+    .booking-col-2, .check, .rooms, .guest{
+        width: 100%;
+    }
+
+    .col-2-wrap, .col-2-wrap img{
+        width: 310px;
+    }
+
+    .booking-container{
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+}

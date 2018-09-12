@@ -1,0 +1,50 @@
+:root{
+	--theme-color: #CC9933;
+	--theme-redish: #CB4C33;
+	--theme-brown: #b59972;
+}
+
+.vision-box { 
+    /* The image used */
+    background-image: url("../images/sliders/image3.jpg");
+    /* Set a specific height */
+    height: 500px;
+    line-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.vision-box p{
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 26px;
+    color: white;
+    margin: 0 50px;
+    padding: 15px 25px;
+    background: rgba(0, 0, 0, .4);
+    border-radius: 40px;
+}
+
+@media screen and (max-width: 1024px){
+
+    .vision-box p{
+        font-size: 36px;
+    }
+
+   
+}
+
+@media screen and (max-width: 991px) {
+    .vision-box p{
+        font-size: 24px;
+    }
+
+}
+
+

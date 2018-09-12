@@ -1,0 +1,128 @@
+:root{
+	--theme-color: #CC9933;
+	--theme-redish: #CB4C33;
+    --theme-brown: #b59972;
+    --theme-darkbrown: #3d201a;
+}
+
+
+.testimony-flex .testimony-box img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testimonial-section .tag, .testimonial-section .caption{
+    text-align: center;
+}
+
+.testimony-box{
+    float: left;
+    width: 33.3%;
+    margin-bottom: 30px;
+}
+
+.testimony-flex:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.testimonial-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: var(--theme-brown);
+}
+
+.testimony-box div{
+    margin: 0px 30px;
+    padding: 30px 20px;
+    border: 2px solid gray;
+    height: 400px;
+    position: relative;
+}
+
+.testimony-box div button{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.testimony-box div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimony-box div h2{
+    text-align: center;
+    color: rgb(78, 78, 78);
+}
+
+.testimony-box div p{
+    text-align: justify;
+    color: rgb(78, 78, 78);
+}
+
+@media screen and (max-width: 1024px) {
+    .testimony-box div{
+        height: 650px;
+    }
+
+    .testimony-box div p {
+        font-size: 26px;
+    }
+
+    .testimony-box div h2{
+        font-size: 29px;
+    }
+    
+    .testimonial-section .caption{
+        font-size: 36px; 
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .testimony-box{
+        width: 100%;
+    }
+     
+    .testimony-box div{
+        height: 320px;
+    }
+
+    .testimony-box div p {
+        font-size: 18px;
+    }
+
+    .testimony-box div h2{
+        font-size: 24px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 640px) {
+    .testimony-box{
+        width: 100%;
+        
+    }
+
+    .testimony-box div{
+        height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .testimony-box div p {
+        font-size: 14px;
+        line-height:24px;
+    }
+
+    .testimony-box div h2{
+        font-size: 20px;
+    }
+
+}
