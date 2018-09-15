@@ -1,3 +1,10 @@
+:root{
+	--theme-color: #CC9933;
+	--theme-redish: #CB4C33;
+    --theme-brown: #b59972;
+    --theme-darkbrown: #3d201a;
+}
+
 .lodge-parallax{ 
     /* The image used */
     
@@ -13,12 +20,10 @@
 
 }
 
-.handler h2 span{
-    font-size: 20px;
-}
 #welcome-lodge{
     background-image: url("../images/parallex/IMG-20180902-WA0017.jpg");
 }
+
 
 .booking{
     background-image: url("../images/sliders/image1.jpg");
@@ -45,16 +50,16 @@
     width: 33.3%;
 }
 .lg-rm-wrapper .handler{
-    border: 1px solid #e9e6e6;
+    border: 1px solid #fff;
     width: 350px;
     display: block;
     margin: 13px auto;
-    background: #f7f5f5;
+    background: #fff;
 }
 
 .afrilodge-rm-container{
     padding: 150px 100px 100px 100px;
-    background: #ecebeb;
+    background: #f7f5f5;
 }
 .afrilodge-rm-wrapper:after{
     content: '';
@@ -170,7 +175,6 @@
     .lg-rm-wrapper .handler{
         width: 300px;
     }
-
     
 }
 
@@ -206,6 +210,7 @@
     .handler button{
         font-size: 16px;
     }
+
 }
 
 @media screen and (max-width: 360px) {

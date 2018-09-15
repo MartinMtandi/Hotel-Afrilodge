@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/header.css" />
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/services.css">
     <link rel="stylesheet" href="css/lodge-landingpage.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 </head>
@@ -104,7 +105,40 @@
      .
  </section>
     <!--End Afrilodge Room Display-->
+<!--Service List-->
 
+<div class="service">
+    <div class="overlay">
+    <div class="service-container">
+        <h2 class="center">The Standard Hotel</h2>
+        <h1 class="center">Service List<h1>
+        <div class="service-wrapper">
+            <div class="service-box">
+                <div class="border level-1">
+                <h3><i class="fas fa-bed"></i>Accomodation</h3>
+                <p class="desc">The Standard Hotel boasts of 42 rooms on three floors, some rooms with 2 beds and family units. <span></span></p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="border level-1">
+                <h3><i class="fas fa-utensils"></i>Steak & Grill Restaurant</h3>
+                <p class="desc">We also have a Steak and Grill restaurant which serves sumptuous meals.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="border level-1">
+                <h3><i class="fas fa-cocktail"></i>&nbsp;Thirsty Throats Bar</h3>
+                <p class="desc">Spend time in our elegant bar overlooking the city</p>
+    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+</div>
+
+<!--End Services List-->
 
     <!--Footer -->
     <?php require_once('includes/footer.html');?>
