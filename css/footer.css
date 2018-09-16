@@ -25,6 +25,7 @@ footer{
 
 .fa-heart, footer p span{
     color: var(--theme-color);
+    font-family: 'Inconsolata', monospace;
 }
 
 .col-ms-4 div{
@@ -39,11 +40,19 @@ footer{
     color: gray;
     text-decoration: none;
     text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+
+.xm{
+    line-height: 26px;
 }
 
 footer article div h4{
     text-align: center;
     color: white;
+    font-family: 'Poiret One', cursive;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 footer > p, footer section article div p{
@@ -51,6 +60,7 @@ footer > p, footer section article div p{
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
+    font-family: 'Inconsolata', monospace;
 }
 
 footer hr{
