@@ -50,11 +50,10 @@
         </div>
         <div class="booking-col-2">
             <div class="col-2-wrap">
-                <h2>Featured Room</h2>
+                <h2 class="ft-room-xn">Featured Room</h2>
                 <div>
                     <img src="images/afrilodge/full/rm7.jpg" alt="featured-room">
                     <h2>Deluxe Room - <span>Tunisia</span></h2>
-                    <h3>Kingsize Bed</h3>
                     <p >
                         <i class="fas fa-users"></i>&nbsp;2 Guests
                     </p>

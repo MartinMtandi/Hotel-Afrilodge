@@ -14,7 +14,8 @@ button{
 	border: 2px solid var(--theme-color);
 	text-transform: uppercase;
 	font-family: 'Poiret One', cursive;
-    font-weight: 700;
+	font-weight: 700;
+	letter-spacing: 1px;
 }
 
 button:hover{
