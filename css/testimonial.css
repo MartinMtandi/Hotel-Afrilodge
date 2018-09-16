@@ -31,13 +31,13 @@
 .testimonial-section{
     padding-top: 80px;
     padding-bottom: 80px;
-    background: var(--theme-brown);
+    background: rgb(245, 245, 245);
 }
 
 .testimony-box div{
     margin: 0px 30px;
     padding: 30px 20px;
-    border: 2px solid gray;
+    border: 2px solid var(--theme-color);
     height: 400px;
     position: relative;
 }
@@ -56,13 +56,31 @@
 
 .testimony-box div h2{
     text-align: center;
-    color: rgb(78, 78, 78);
+    font-family: 'Poiret One', cursive;
+}
+
+.tag{
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-weight: 500;
+}
+
+.head{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 200;
 }
 
 .testimony-box div p{
     text-align: justify;
-    color: rgb(78, 78, 78);
+    font-family: 'Inconsolata', monospace;
 }
+
+.testimony-box div:hover{
+    cursor: pointer;
+}
+
 
 @media screen and (max-width: 1024px) {
     .testimony-box div{

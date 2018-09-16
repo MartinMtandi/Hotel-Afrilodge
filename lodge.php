@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/header.css" />
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/box-model.css">
     <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/chk.css">
     <link rel="stylesheet" href="css/lodge-landingpage.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 </head>
@@ -18,99 +20,85 @@
 <!--End Nav Bar -->
 
 <div class="lodge-parallax" id="welcome-lodge">
-    <p>Welcome to Afrilodge</p>
+    <div>
+       <p>Afrilodge<br><span>- A place that feels like home.</span></p>
+    </div>
 </div>
+
+<!--Start Check Availability-->
+<section class="section-chk">
+<form class="form-inline" action="">
+  <label for="chkin">Check In:</label>
+  <input type="date" id="mychkindate" name="chkin">
+  <label for="chkout">Check Out:</label>
+  <input type="date" id="mychkoutdate" name="chkout">
+   <label for="rooms">Rooms:</label>
+   <select id="rooms" name="rooms">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="+5">+5</option>
+    </select>
+  <button type="submit">Check Availability</button>
+</form>
+</section>
+<!--End Check Availability-->
+
+<article class="room-summary">
+    <h2>Afrilodge</h2>
+    <h1>Room Summary</h1>
+    <p>The rooms are made up of a king sized bed as well as tea making and refrigeration facilities. The room is
+equipped with air conditioning and complimentary high-speed internet access allowing you to stay in
+touch with the office or plan your day's activities. Also LCD TVs with Freeview DSTV channels.</p>
+</article>
+
+<section class="view-rooms">
+    <div class="box-container">
+        <div class="room-wrapper">
+            <div class="box">
+                <div class="box-image box1">
+                    <span>Taurus - $80.00</span>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-image box2">
+                    <span>Sagittarius - $80.00</span>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-image box3">
+                    <span>Aries - $80.00</span>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-image box4">
+                    <span>Scorpio - $80.00</span>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-image box5">
+                    <span>Libra - $80.00</span>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-image box6">
+                    <span>Leo - $80.00</span>
+                    <button>Book Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
  <!--Start Afrilodge Room Display-->
- <section class="afrilodge-rm-container">
-     <div class="afrilodge-rm-wrapper">
-         <div class="lg-rm-wrapper">
-             <div class="handler">
-             <img src="images/afrilodge/rm1.jpg" alt="room1">
-             <h2>Executive Room</h2>
-            <h3>Taurus</h3>
-            <p>
-                <i class="fas fa-users"></i>&nbsp;2 Guests
-            </p>
-            <p>The room is made up of a Kingsized bed, air condition as well as tea making and regrigeration facilities.
-                The room is equipped with complimentary high-speed Internet access allowing you to stay in touch with
-                the office, or plan your day's activities. LCD TV with Freeview DSTV channels.</p>
-            <button>Book Now for $80</button>
-             </div>
-         </div>
-         <div class="lg-rm-wrapper">
-             <div class="handler">
-             <img src="images/afrilodge/rm2.jpg" alt="room2">
-             <h2>Executive Room</h2>
-            <h3>Aries</h3>
-            <p>
-                <i class="fas fa-users"></i>&nbsp;2 Guests
-            </p>
-            <p>The room is made up of a Kingsized bed, air condition as well as tea making and regrigeration facilities.
-                The room is equipped with complimentary high-speed Internet access allowing you to stay in touch with
-                the office, or plan your day's activities. LCD TV with Freeview DSTV channels.</p>
-            <button>Book Now for $80</button>
-             </div>
-         </div>
-         <div class="lg-rm-wrapper">
-             <div class="handler">
-             <img src="images/afrilodge/rm3.jpg" alt="room3">
-             <h2>Executive Room</h2>
-            <h3>Scorpio</h3>
-            <p>
-                <i class="fas fa-users"></i>&nbsp;2 Guests
-            </p>
-            <p>The room is made up of a Kingsized bed, air condition as well as tea making and regrigeration facilities.
-                The room is equipped with complimentary high-speed Internet access allowing you to stay in touch with
-                the office, or plan your day's activities. LCD TV with Freeview DSTV channels.</p>
-            <button>Book Now for $80</button>
-             </div>
-         </div>
-         <div class="lg-rm-wrapper">
-             <div class="handler">
-             <img src="images/afrilodge/rm4.jpg" alt="room4">
-             <h2>Executive Room</h2>
-            <h3>Sagitarius</h3>
-            <p>
-                <i class="fas fa-users"></i>&nbsp;2 Guests
-            </p>
-            <p>The room is made up of a Kingsized bed, air condition as well as tea making and regrigeration facilities.
-                The room is equipped with complimentary high-speed Internet access allowing you to stay in touch with
-                the office, or plan your day's activities. LCD TV with Freeview DSTV channels.</p>
-            <button>Book Now for $80</button>
-             </div>
-         </div>
-         <div class="lg-rm-wrapper">
-             <div class="handler">
-             <img src="images/afrilodge/rm5.jpg" alt="room5">
-             <h2>Executive Room</h2>
-            <h3>Libra</h3>
-            <p>
-                <i class="fas fa-users"></i>&nbsp;2 Guests
-            </p>
-            <p>The room is made up of a Kingsized bed, air condition as well as tea making and regrigeration facilities.
-                The room is equipped with complimentary high-speed Internet access allowing you to stay in touch with
-                the office, or plan your day's activities. LCD TV with Freeview DSTV channels.</p>
-            <button>Book Now for $80</button>
-             </div>
-         </div>
-         <div class="lg-rm-wrapper">
-             <div class="handler">
-             <img src="images/afrilodge/rm6.jpg" alt="room6">
-             <h2>Executive Room</h2>
-            <h3>Leo</h3>
-            <p>
-                <i class="fas fa-users"></i>&nbsp;2 Guests
-            </p>
-            <p>The room is made up of a Kingsized bed, air condition as well as tea making and regrigeration facilities.
-                The room is equipped with complimentary high-speed Internet access allowing you to stay in touch with
-                the office, or plan your day's activities. LCD TV with Freeview DSTV channels.</p>
-            <button>Book Now for $80</button>
-             </div>
-         </div>
-     </div>
-     .
- </section>
-    <!--End Afrilodge Room Display-->
+
+<!--End Afrilodge Room Display-->
 
 
 <!--Start Service Section-->

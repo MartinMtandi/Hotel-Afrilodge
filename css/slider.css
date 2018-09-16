@@ -37,14 +37,16 @@
     color: #fff;
     font-size: 36px;
     transition: 0.5s;
+    font-family: 'Cormorant SC', serif;
 }
 
 .container .slider .slide .caption p{
     margin: 0;
     padding: 0;
     color: #fff;
-    font-size: 18px;
+    font-size: 36px;
     transition: 0.5s;
+    font-family: 'Wire One', sans-serif;
 }
 
 .container .slider .slide.slide1{

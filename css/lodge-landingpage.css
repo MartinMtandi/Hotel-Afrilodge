@@ -16,9 +16,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
+    text-align: right;
+   
 
 }
+
 
 #welcome-lodge{
     background-image: url("../images/parallex/IMG-20180902-WA0017.jpg");
@@ -34,15 +36,24 @@
 }
 
 .lodge-parallax p{
-    line-height: 1.5;
+    line-height: 1;
     display: inline-block;
     vertical-align: middle;
-    font-size: 36px;
+    font-size: 120px;
     color: white;
     padding: 20px 30px;
-    background: rgba(0, 0, 0, .6);
-    border-radius: 50px;
-    cursor: pointer;
+    font-family: 'Yesteryear', cursive;
+}
+
+.lodge-parallax div{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,.2);
+}
+
+.lodge-parallax p span{
+    font-size: 50px;
+    font-family: 'Parisienne', cursive;
 }
 
 .lg-rm-wrapper{
@@ -79,6 +90,15 @@
 .handler button{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+
+.handler h2 span{
+    font-size: 20px;
+}
+
+.handler button{
+    margin-left: 20px;
 }
 
 .afrilodge-rm-container .afrilodge-rm-wrapper .lg-rm-wrapper img{

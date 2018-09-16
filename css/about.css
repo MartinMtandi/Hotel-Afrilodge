@@ -33,8 +33,9 @@
 
 .afri-col-2 .afri-img-wrapper .img-sm-4 div img{
     width: 300px;
-    border: 2px solid var(--theme-darkbrown);
-    border-radius: 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
 }
 
 .afri-col-2 .afri-img-wrapper .img-sm-4 #img-top img{
@@ -44,18 +45,29 @@
     margin-bottom: 5px;
 }
 
-.afri-col-2 .afri-wrapper h2, .afri-col-2 .afri-wrapper h1{
+.afri-col-2 .afri-wrapper h2{
     text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-weight: 500;
 }
-
+.afri-col-2 .afri-wrapper h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 200;
+}
 .afri-col-2 .afri-wrapper p{
     margin: 0 50px;
     text-align: justify;
     line-height: 25px;
+    font-family: 'Inconsolata', monospace;
 }
 
 .afri-col-2 .afri-wrapper button{
-margin-top: 30px;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -237,7 +249,7 @@ margin-top: 30px;
     margin-left: 20px;
     margin-right: auto;
     margin-bottom: 20px;
-    border-radius: 10px;
+    border: 2px solid var(--theme-color);
 }
 
 .about-hotel-wrapper span{
@@ -251,15 +263,24 @@ margin-top: 30px;
 }
 
 .about-hotel-main{
-    background: #f5eeee;
+    background: #fdf8f8;
     padding: 80px 0;
 }
 
-.about-hotel-main h2, .about-hotel-main h1{
+.about-hotel-main h1{
+    font-size: 30px;
     text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 200;
 }
 
-.hotel-containers .about-hotel-wrapper img{
+.about-hotel-main h2 {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-weight: 500;
+}
+
+.hotel-containers .about-hotel-wrapper div img{
     width: 600px;
 }
 
@@ -283,6 +304,7 @@ margin-top: 30px;
 .about-hotel-wrapper p{
     margin: 20px;
     line-height: 25px;
+    font-family: 'Inconsolata', monospace;
 }
 
 @media screen and (max-width: 1230px){

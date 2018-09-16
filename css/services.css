@@ -10,35 +10,45 @@
     width: 33.3%;
 }
 
+
+.service{
+    background: #fdf8f8;
+}
+
 .service-wrapper:after{
     content: '';
     display: table;
     clear: both;
 }
 
-.center, .meal-desc{
+.meal-desc{
     text-align: center;
 }
 
-.handler h2 span{
-    font-size: 20px;
+.service-container h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 200;
 }
 
-.handler button{
-    padding: 8px 14px;
-    border: none;
-    color: #eee;
-    background: var(--theme-color);
-    margin-left: 20px;
+.service-container h2{
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-weight: 500;
 }
+
 
 .desc, .meal-desc{
     font-size: 18px;
     font-weight: 100;
+    font-family: 'Inconsolata', monospace;
 }
 
 .border h3{
     font-size: 22px;
+    font-family: 'Poiret One', cursive;
+    font-weight: 700;
 }
 
 .border{
@@ -50,7 +60,7 @@
 }
 
 .service-container{
-    padding: 80px 150px;
+    padding: 40px 150px 80px 150px;
 }
 
 .desc span, .border h3 .fas{

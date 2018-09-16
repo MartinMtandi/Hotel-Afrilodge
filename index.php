@@ -62,12 +62,9 @@
           <div class="afri-wrapper">
               <h2>Stay With Our Luxury Rooms</h2>
               <h1>About<br>Afrilodge</h1>
-              <p>We offer accomodation (Bed and Breakfast) at a lowest rate. Pleasant and comfortable, our cozy rooms are the ideal choice
-					for business guests and leisure travellers alike. Each room is equipped with complimentary high-speed Internet access
+              <p>We offer accomodation (Bed and Breakfast) at a lowest rate. Each room is equipped with complimentary high-speed Internet access
 					allowing you to stay in touch with the office, or plan your day's activities. LCD TV with Freeview DSTV channels. Tea
-					and coffee making facilities also offered. No visit to Bulawayo would be complete without spending a night at Afrilodge.
-					After a long day of meetings and shopping in the city, guests frequently enjoy nothing more than the finger licking dinner
-					at Afrilodge.</p>
+					and coffee making facilities also offered.</p>
 			    <button>Check In</button>
           </div>
       </div>
@@ -92,7 +89,9 @@
         <h1>About<br>The Standard Hotel</h1>
         <div class="hotel-containers" id="hotel-box1">
             <div class="about-hotel-wrapper">
-                <img src="images/hotel/two-beds.jpg" alt="banner">
+                <div>
+                    <img src="images/hotel/two-beds.jpg" alt="banner">
+                </div>
                 <p><i class="fas fa-map-marker-alt"></i>&nbsp;Location - <span>Joshua Nkomo St</span></p>
                 <p><b>More About Us</b></p>
                 <p>The Standard Hotel is in the city centre, hence easy access to the Art Gallery, 
@@ -107,9 +106,9 @@
             </div>
         </div>
         <div class="hotel-containers" id="hotel-box2">
-            <img src="images/hotel/IMG-20180902-WA0052.jpg" alt="bed1">
-            <img src="images/hotel/IMG-20180902-WA0053.jpg" alt="bed2">
-            <img src="images/hotel/slider01.jpg" alt="bed3">
+            <img src="images/hotel/full/rm2.jpg" alt="bed1">
+            <img src="images/hotel/full/rm3.jpg" alt="bed2">
+            <img src="images/hotel/full/rm4.jpg" alt="bed3">
         </div>
     </section>
 
@@ -126,7 +125,7 @@
 	<!--Testimonial section-->
 	<section class="testimonial-section">
             <h2 class="tag">Testimonial</h2>
-            <h1 class="caption">Guest Review</h1>
+            <h1 class="head">Guest Review</h1>
             <section class="testimony-flex">
                 <div class="testimony-box">
                     <div>

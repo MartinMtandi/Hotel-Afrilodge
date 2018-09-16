@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Inconsolata|Jacques+Francois+Shadow|Nixie+One|Parisienne|Poiret+One|Wire+One|Yesteryear');
 
 :root{
 	--theme-color: #CC9933;
@@ -7,15 +7,23 @@
 	--theme-darkbrown: #3d201a;
 }
 
-h2, h1, h3, p, li>a{
-    font-family: "Roboto";
+button{
+	padding: 7px 10px;
+	color: white;
+	background: var(--theme-color);
+	border: 2px solid var(--theme-color);
+	text-transform: uppercase;
+	font-family: 'Poiret One', cursive;
+    font-weight: 700;
 }
 
-p{
-    color: gray;
+button:hover{
+	border: 2px solid var(--theme-color);
+	color: var(--theme-color);
+	background: white;
+	cursor: pointer;
 }
 
-h1, h2, h3{
-    color: rgb(97, 97, 97);
+img{
+	cursor: pointer;
 }
-

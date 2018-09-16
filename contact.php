@@ -18,14 +18,16 @@
 <!--End Nav Bar -->
 
 <div class="lodge-parallax booking">
-    <p>Contact Us Today</p>
+    <div>
+       <p>Contact Us<br><span>-and speak to our friendly staff.</span></p>
+    </div>
 </div>
 <!--booking form-->
 <section class="booking-container">
     <div class="booking-wrapper">
         <div class="booking-col-2">
         <form action="">
-            <h1>Booking Form</h1>
+            <h1>Fill Details Below:</h1>
             <label for="name">Name</label>
             <input type="text" id="name">
             <label for="phone">Phone No.</label>
@@ -43,18 +45,18 @@
             <label for="msg">Write a Message</label>
             <textarea id="msg" name="msg" placeholder="Write something.." style="height:120px"></textarea>
         
-            <button>Submit</button>
+            <button>Send</button>
           </form>
         </div>
         <div class="booking-col-2">
             <div class="col-2-wrap">
                 <h2>Featured Room</h2>
                 <div>
-                    <img src="images/hotel/IMG-20180902-WA0057.jpg" alt="">
-                    <h2>Deluxe Room - <span>Zimbabwe</span></h2>
-                    <h3>Double Bed</h3>
+                    <img src="images/afrilodge/full/rm7.jpg" alt="featured-room">
+                    <h2>Deluxe Room - <span>Tunisia</span></h2>
+                    <h3>Kingsize Bed</h3>
                     <p >
-                        <i class="fas fa-users"></i>&nbsp;4 Guests
+                        <i class="fas fa-users"></i>&nbsp;2 Guests
                     </p>
                     <p>It has an internal, palm lined garden with lush fresh plants. This room has bidets in the bathroom to enhance personal hygiene. It is tiled with ceramic and exotic wood.</p>
                     <button>Book Now for $80</button>

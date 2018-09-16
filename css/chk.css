@@ -1,0 +1,158 @@
+:root{
+	--theme-color: #CC9933;
+	--theme-redish: #CB4C33;
+    --theme-brown: #b59972;
+    --theme-darkbrown: #3d201a;
+}
+
+/* Style the form - display items horizontally */
+.form-inline { 
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  
+  /* Add some margins for each label */
+  .form-inline label {
+    margin: 5px 10px 5px 0;
+  }
+
+  label{
+color: #fff;
+  }
+  
+  /* Style the input fields */
+  .form-inline input, .form-inline select {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: var(--theme-color);
+    border: 1px solid #ddd;
+    color: white;
+  }
+  
+  /* Style the submit button */
+  .form-inline button {
+    padding: 8px 10px;
+    background-color: var(--theme-color);
+    border: 1px solid #ddd;
+    color: white;
+  }
+  
+  .form-inline button:hover {
+    background-color: white;
+    color: #CC9933;
+  }
+
+  .section-chk{
+    position: relative;
+}
+
+  .section-chk form{
+      width: 60%;
+      background: var(--theme-color);
+      padding: 30px 20px;
+      position: absolute;
+      top: -50px;
+      left: 20%;
+      right: 20%;
+  }
+
+  @media screen and (max-width: 1280px) {
+    .section-chk form{
+        width: 80%;
+        left: 10%;
+        right: 10%;
+    }
+  }
+
+
+  /* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
+  @media screen and (max-width: 823px) {
+    .form-inline input {
+      margin: 10px 0;
+    }
+  
+    .form-inline {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .section-chk{
+        position: initial;
+        padding: 20px 10px;
+    }
+
+    .section-chk form{
+        width: 100%;
+        background: white;
+        padding: 30px 0px;
+        position: initial;
+        
+    }
+
+    .form-inline label{
+        color: black;
+    }
+
+    .form-inline input, .form-inline select{
+        background: white;
+        border: 1px solid #ccc;
+        color: black;
+        padding: 8px 4px;
+        margin-bottom: 5px;
+    }
+
+    .form-inline select{
+        width: 100%;
+    }
+    
+    .section-chk form{
+        top: 50px;
+    }
+
+    .form-inline input[type="submit"]{
+        padding: 8px 4px;
+    }
+
+
+  }
+
+  @media screen and (max-width: 420px) {
+    .section-chk{
+        position: initial;
+        padding: 20px 10px;
+    }
+
+    .section-chk form{
+        width: 100%;
+        background: white;
+        padding: 30px 0px;
+        position: initial;
+        
+    }
+
+    .form-inline label{
+        color: black;
+    }
+
+    .form-inline input, .form-inline select{
+        background: white;
+        border: 1px solid #ccc;
+        color: black;
+        padding: 8px 4px;
+        margin-bottom: 5px;
+    }
+
+    .form-inline select{
+        width: 100%;
+    }
+    
+    .section-chk form{
+        top: 50px;
+    }
+
+    .form-inline input[type="submit"]{
+        padding: 8px 4px;
+    }
+  }

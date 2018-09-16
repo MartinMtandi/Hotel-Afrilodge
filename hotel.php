@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/services.css">
     <link rel="stylesheet" href="css/lodge-landingpage.css">
+    <link rel="stylesheet" href="css/chk.css">
+    <link rel="stylesheet" href="css/box-model.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 </head>
 <body>
@@ -18,93 +20,86 @@
 <!--End Nav Bar -->
 
 <div class="lodge-parallax welcome-hotel">
-    <p>Welcome to The Standard Hotel</p>
+<div>
+    <p>The Standard Hotel<br><span>-More homely than home with a professional touch.</span></p>
 </div>
- <!--Start Afrilodge Room Display-->
- <section class="afrilodge-rm-container">
-     <div class="afrilodge-rm-wrapper">
-         <div class="lg-rm-wrapper">
-             <div class="handler">
-             <img src="images/hotel/IMG-20180902-WA0057.jpg" alt="room1">
-             <h2>Deluxe Room - <span>Zimbabwe</span></h2>
-                <h3>Double Bed</h3>
-                <p >
-                    <i class="fas fa-users"></i>&nbsp;4 Guests
-                </p>
-                <p>It has an internal, palm lined garden with lush fresh plants. This room has bidets in the bathroom to enhance personal hygiene. It is tiled with ceramic and exotic wood.</p>
-                <button>Book Now for $80</button>
-             </div>
-         </div>
-         <div class="lg-rm-wrapper">
-             <div class="handler">
-             <img src="images/hotel/IMG-20180902-WA0053.jpg" alt="room2">
-             <h2>Executive Room - <span>Tunisia</span></h2>
-                <h3>Twin Bed</h3>
-                <p class="">
-                    <i class="fas fa-users"></i>&nbsp;2 Guests
-                </p>
-                <p>It has an internal, palm lined garden with lush fresh plants. This room has bidets in the bathroom to enhance personal hygiene. It is tiled with ceramic and exotic wood.
-                </p>
-                <button>Book Now for $80</button>
-             </div>
-         </div>
-         <div class="lg-rm-wrapper">
-             <div class="handler">
-             <img src="images/hotel/IMG-20180902-WA0052.jpg" alt="room3">
-             <h2>Executive Room - <span>Tanzania</span></h2>
-                <h3>Double Bed</h3>
-                <p class="">
-                    <i class="fas fa-users"></i>&nbsp;2 Guests
-                </p>
-                <p>It has an internal, palm lined garden with lush fresh plants. This room has bidets in the bathroom to enhance personal hygiene. It is tiled with ceramic and exotic wood.
-                </p>
-                <button>Book Now for $70</button>
-             </div>
-         </div>
-         <div class="lg-rm-wrapper">
-             <div class="handler">
-             <img src="images/hotel/slider01.jpg" alt="room4">
-                <h2>Standard Room - <span>Botswana</span></h2>
-                <h3>Twin Bed</h3>
-                <p class="">
-                    <i class="fas fa-users"></i>&nbsp;2 Guests
-                </p>
-                <p>It has an internal, palm lined garden with lush fresh plants. This room has bidets in the bathroom to enhance personal hygiene. It is tiled with ceramic and exotic wood.
-                </p>
-                <button>Book Now for $60</button>
-             </div>
-         </div>
-         <div class="lg-rm-wrapper">
-             <div class="handler">
-             <img src="images/hotel/IMG-20180902-WA0044.jpg" alt="room5">
-             <h2>Standard Room - <span>South Africa</span></h2>
-                <h3>Double Bed</h3>
-                <p>
-                    <i class="fas fa-users"></i>&nbsp;2 Guests
-                </p>
-                <p class="text-justify">It has an internal, palm lined garden with lush fresh plants. This room has bidets in the bathroom to enhance personal hygiene. It is tiled with ceramic and exotic wood.
-                </p>
-                <button>Book Now for $60</button>
+</div>
+
+<!--Start Check Availability-->
+<section class="section-chk">
+<form class="form-inline" action="">
+  <label for="chkin">Check In:</label>
+  <input type="date" id="mychkindate" name="chkin">
+  <label for="chkout">Check Out:</label>
+  <input type="date" id="mychkoutdate" name="chkout">
+   <label for="rooms">Rooms:</label>
+   <select id="rooms" name="rooms">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="+5">+5</option>
+    </select>
+  <button type="submit">Check Availability</button>
+</form>
+</section>
+<!--End Check Availability-->
+
+ <!--Start Hotel Room Display-->
+
+ <article class="room-summary">
+    <h2>The Standard Room</h2>
+    <h1>Room Summary</h1>
+    <p>Discover the beauty of Africa. Rooms are internal and have a palm lined garden with lush fresh plants. It
+is the only hotel in Bulawayo with bidets in each bathroom to enhance personal hygiene. Our rooms are
+tiled with ceramic and exotic wood.</p>
+</article>
+
+
+ <section class="view-rooms">
+    <div class="box-container">
+        <div class="room-wrapper">
+            <div class="box">
+                <div class="box-image vbox1">
+                    <span>Double Bed Ensuite - $80.00</span>
+                    <button>Family Room Botswana</button>
+                </div>
             </div>
-             </div>
-         
-         <div class="lg-rm-wrapper">
-             <div class="handler">
-             <img src="images/hotel/IMG-20180902-WA0056.jpg" alt="room6">
-             <h2>Standard Room - <span>Malawi</span></h2>
-                <h3>Single (Double Bed)</h3>
-                <p class="hotel-info">
-                    <i class="fas fa-users"></i>&nbsp;2 Guests
-                </p>
-                <p class="text-justify">It has an internal, palm lined garden with lush fresh plants. This room has bidets in the bathroom to enhance personal hygiene. It is tiled with ceramic and exotic wood.
-                </p>
-                <button>Book Now for $50</button>
-             </div>
-         </div>
-     </div>
-     .
- </section>
-    <!--End Afrilodge Room Display-->
+            <div class="box">
+                <div class="box-image vbox2">
+                    <span>Kingsize Bed - $100.00</span>
+                    <button>Penthouse Suite Zimbabwe</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-image vbox3">
+                    <span>Kingsize Bed Ensuite - $70.00</span>
+                    <button>Executive Room Nigeria</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-image vbox4">
+                    <span>Kingsize Bed Ensuite - $80.00</span>
+                    <button>Deluxe Room Tunisia</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-image vbox5">
+                    <span>Double Bed - $60.00</span>
+                    <button>Family Room Namibia</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-image vbox6">
+                    <span>Kingsize Bed - $60.00</span>
+                    <button>Executive Room South Africa</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!--End Hotel Room Display-->
 <!--Service List-->
 
 <div class="service">

@@ -14,6 +14,16 @@ input[type=text],input[type=email], input[type=date], textarea, select {
     width: 50%;
 }
 
+.booking-col-2 form h1, .ft-room-xn{
+    font-size: 26px;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+}
+
+.check label, .rooms div label, .guest div label, .myhotel label, .booking-wrapper label{
+    font-family: 'Inconsolata', monospace;
+}
+
 .booking-wrapper:after, .flex-check:after, .flex-rooms:after{
     content: '';
     display: table;
@@ -25,12 +35,24 @@ input[type=text],input[type=email], input[type=date], textarea, select {
     background: #f7f5f5;
 }
 
+.col-2-wrap div h2{
+    font-family: 'Poiret One', cursive;
+}
+
 .col-2-wrap{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 450px;
  
+}
+
+.col-2-wrap div p{
+    font-family: 'Inconsolata', monospace;
+}
+
+.col-2-wrap div button{
+    margin-left: 20px;
 }
 
 #checkin, .rooms div{

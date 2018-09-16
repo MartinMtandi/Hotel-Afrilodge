@@ -18,7 +18,10 @@
 <!--End Nav Bar -->
 
 <div class="lodge-parallax booking">
-    <p>Place A Booking Today</p>
+    <div>
+       <p>Book Now<br><span>- and enjoy special comfort prepared to make
+you feel at home.</span></p>
+    </div>
 </div>
 <!--booking form-->
 <section class="booking-container">
@@ -86,16 +89,15 @@
         </div>
         <div class="booking-col-2">
             <div class="col-2-wrap">
-                <h2>Featured Room</h2>
+                <h2 class="ft-room-xn">Featured Room</h2>
                 <div>
-                    <img src="images/hotel/IMG-20180902-WA0057.jpg" alt="">
-                    <h2>Deluxe Room - <span>Zimbabwe</span></h2>
-                    <h3>Double Bed</h3>
+                    <img src="images/hotel/full/rm3.jpg" alt="">
+                    <h2>Penthouse Suite - <span>Zimbabwe</span></h2>
                     <p >
-                        <i class="fas fa-users"></i>&nbsp;4 Guests
+                        <i class="fas fa-users"></i>&nbsp;2 Guests
                     </p>
                     <p>It has an internal, palm lined garden with lush fresh plants. This room has bidets in the bathroom to enhance personal hygiene. It is tiled with ceramic and exotic wood.</p>
-                    <button>Book Now for $80</button>
+                    <button>Book Now for $100</button>
                 </div>
             </div>
         </div>

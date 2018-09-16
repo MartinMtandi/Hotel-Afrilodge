@@ -1,0 +1,264 @@
+:root{
+	--theme-color: #CC9933;
+	--theme-redish: #CB4C33;
+    --theme-brown: #b59972;
+    --theme-darkbrown: #3d201a;
+}
+
+/*Room Summary */
+.room-summary{
+    padding: 100px 50px 0px 50px;
+    text-align: center;
+}
+
+.room-summary p{
+    margin: 0 100px;
+    line-height: 23px;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+.room-summary h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 200;
+}
+
+.room-summary h2{
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-weight: 500;
+}
+
+/*End Room Summary*/
+
+
+.box{
+    float: left;
+    width: 33.3%;
+}
+
+.room-wrapper:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.box-image{
+    width: 350px;
+    height: 233px;
+    margin: 20px;
+    position: relative;
+}
+
+.box-image span{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    padding: 8px 14px;
+    border: 1px solid var(--theme-color);
+    color: var(--theme-color);
+    background: white;
+    font-family: 'Poiret One', cursive;
+    font-weight: 700;
+}
+
+
+
+.box-image button{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    visibility: hidden;
+}
+
+.box-image:hover button{
+    visibility: visible;
+}
+
+.box-image:hover span{
+  visibility: hidden;
+}
+
+.box-image:hover{
+    cursor: pointer;
+}
+
+.box1{
+    background: url(../images/afrilodge/full/rm7.jpg);
+    
+}
+
+.box2{
+    background: url(../images/afrilodge/full/rm1.jpg);
+    
+}
+
+.box3{
+    background: url(../images/afrilodge/full/rm2.jpg);
+}
+
+.box4{
+    background: url(../images/afrilodge/full/rm3.jpg);
+    
+}
+
+.box5{
+    background: url(../images/afrilodge/full/rm4.jpg);
+ 
+}
+
+.box6{
+    background: url(../images/afrilodge/full/rm5.jpg);
+}
+
+
+.vbox1{
+    background: url(../images/hotel/full/rm1.jpg);
+    
+}
+
+.vbox2{
+    background: url(../images/hotel/full/rm2.jpg);
+    
+}
+
+.vbox3{
+    background: url(../images/hotel/full/rm3.jpg);
+}
+
+.vbox4{
+    background: url(../images/hotel/full/rm4.jpg);
+    
+}
+
+.vbox5{
+    background: url(../images/hotel/full/rm5.jpg);
+ 
+}
+
+.vbox6{
+    background: url(../images/hotel/full/rm6.jpg);
+}
+
+.box-container{
+    padding: 80px 100px;
+}
+
+@media screen and (max-width: 770px) {
+    .box{
+        width: 50%;
+    }
+
+    .room-summary{
+        padding: 50px 10px 0px 10px;
+    }
+
+    .box-image{
+        width: 310px;
+        height: 206px;
+        margin: 10px auto;
+    }
+
+    .box-container{
+        padding: 0px;
+    }
+
+    .box1{
+        background: url(../images/afrilodge/mobile/rm7.jpg);
+        
+    }
+    
+    .box2{
+        background: url(../images/afrilodge/mobile/rm1.jpg);
+        
+    }
+    
+    .box3{
+        background: url(../images/afrilodge/mobile/rm2.jpg);
+    }
+    
+    .box4{
+        background: url(../images/afrilodge/mobile/rm3.jpg);
+        
+    }
+    
+    .box5{
+        background: url(../images/afrilodge/mobile/rm4.jpg);
+     
+    }
+    
+    .box6{
+        background: url(../images/afrilodge/mobile/rm5.jpg);
+    }
+
+    .room-summary p{
+        margin: 0 50px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .box{
+        width: 100%;
+    }
+
+    .box-image{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .room-summary p{
+        margin: 0 20px;
+        text-align: justify;
+    }
+
+    .room-summary{
+        padding: 50px 0;
+    }
+
+    .box-container{
+        padding: 10px 0px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .box-image{
+        width: 310px;
+        height: 206px;
+    }
+
+    .room-summary p{
+        margin: 0 10px;
+    }
+
+    .box1{
+        background: url(../images/afrilodge/mobile/rm7.jpg);
+        
+    }
+    
+    .box2{
+        background: url(../images/afrilodge/mobile/rm1.jpg);
+        
+    }
+    
+    .box3{
+        background: url(../images/afrilodge/mobile/rm2.jpg);
+    }
+    
+    .box4{
+        background: url(../images/afrilodge/mobile/rm3.jpg);
+        
+    }
+    
+    .box5{
+        background: url(../images/afrilodge/mobile/rm4.jpg);
+     
+    }
+    
+    .box6{
+        background: url(../images/afrilodge/mobile/rm5.jpg);
+    }
+    
+}
+
