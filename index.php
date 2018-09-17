@@ -115,8 +115,7 @@
     <!--End About The Standard Hotel-->
     <!--Mission Statement-->
     <div class="vision-box">
-		<p>Enhancing guest experience through our passionate people and making a positive difference to our guests through the acts
-			of kindness.</p>
+		<p>A journey through the beautiful stars from an African night sky.</p>
 	</div>
     <!--End Mission Statement-->
 

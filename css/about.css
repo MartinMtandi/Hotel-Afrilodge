@@ -14,6 +14,11 @@
     padding: 80px 0;
 }
 
+.afri-img-wrapper{
+    background: var(--theme-brown);
+    padding: 30px 0;
+}
+
 .about-afrilodge:after{
     content: '';
     display: table;
@@ -36,6 +41,7 @@
     border: none;
     border-radius: 2px;
     cursor: pointer;
+    border: 2px solid white;
 }
 
 .afri-col-2 .afri-img-wrapper .img-sm-4 #img-top img{
