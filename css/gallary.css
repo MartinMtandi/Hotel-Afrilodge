@@ -34,3 +34,18 @@
 .mygallary img:hover{
     transform: scale(1.1);
 }
+
+
+
+@media screen and (max-width: 360px) {
+    .mygallary{
+        width: 350px;
+    }
+
+    .mygallary img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px
+    }
+}
