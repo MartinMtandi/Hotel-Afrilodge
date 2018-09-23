@@ -91,7 +91,7 @@ you feel at home.</span></p>
             <div class="col-2-wrap">
                 <h2 class="ft-room-xn">Featured Room</h2>
                 <div>
-                    <img src="images/hotel/full/rm7.jpg" alt="">
+                    <img src="images/afrilodge/full/rm1.jpg" alt="">
                     <h2>Executive Room - <span>Taurus</span></h2>
                     <p >
                         <i class="fas fa-users"></i>&nbsp;2 Guests
