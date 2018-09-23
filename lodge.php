@@ -161,7 +161,7 @@ touch with the office or plan your day's activities. Also available is an LCD TV
 <!--Gallary -->
 <section class="gallary">
     <h2>Afrilodge</h2>
-    <h1>Gallary</h1>
+    <h1>Gallery</h1>
     <div class="mygallary">
     <a href="images/gallary/lodge/pic1.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Taurus"><img src="images/gallary/lodge/pic1-small.jpg" alt="room"></a>
     <a href="images/gallary/lodge/pic2.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Sagittarius"><img src="images/gallary/lodge/pic2-small.jpg" alt="room"></a>

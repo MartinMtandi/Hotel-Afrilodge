@@ -170,7 +170,7 @@ tiled with ceramic and exotic wood.</p>
 <!--Gallary -->
 <section class="gallary">
     <h2>The Standard Hotel</h2>
-    <h1>Gallary</h1>
+    <h1>Gallery</h1>
     <div class="mygallary">
     <a href="images/gallary/hotel/pic1.jpg" data-lightbox="mygallary" data-title="The Executive Suite - South Africa"><img src="images/gallary/hotel/pic1-small.jpg" alt="room"></a>
     <a href="images/gallary/hotel/pic2.jpg" data-lightbox="mygallary" data-title="Family Room - Botswana"><img src="images/gallary/hotel/pic2-small.jpg" alt="room"></a>
