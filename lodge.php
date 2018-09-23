@@ -152,7 +152,7 @@ touch with the office or plan your day's activities. Also available is an LCD TV
         <p class="meal-desc">Meals are $10 per serving. We offer breakfast, lunch or supper meals. We serve chicken, t-bone, pork chops and fillet along
             with light vegetable/salad based dishes or heavy starch filing i.e. rice, potatoes and pasta etc.
         </p>
-        <p class="meal-desc">Visit us and place an order for meals (only) in our soothing environment anytime between 7:00am and 8:00am</p>
+        <p class="meal-desc">Visit us and place an order for meals (only) in our soothing environment anytime between 7:00am and 8:00pm.</p>
     </div>
     </div>
 </div>
