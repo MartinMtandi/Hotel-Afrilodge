@@ -172,21 +172,21 @@ tiled with ceramic and exotic wood.</p>
     <h2>The Standard Hotel</h2>
     <h1>Gallary</h1>
     <div class="mygallary">
-    <a href="images/gallary/hotel/pic1.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Taurus"><img src="images/gallary/hotel/pic1-small.jpg" alt="room"></a>
-    <a href="images/gallary/hotel/pic2.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Sagittarius"><img src="images/gallary/hotel/pic2-small.jpg" alt="room"></a>
-    <a href="images/gallary/hotel/pic3.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Aries"><img src="images/gallary/hotel/pic3-small.jpg" alt="room"></a>
-    <a href="images/gallary/hotel/pic7.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Taurus"><img src="images/gallary/hotel/pic7-small.jpg" alt="room"></a>
-    <a href="images/gallary/hotel/pic8.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Aries"><img src="images/gallary/hotel/pic8-small.jpg" alt="room"></a>
-    <a href="images/gallary/hotel/pic9.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Aries"><img src="images/gallary/hotel/pic9-small.jpg" alt="room"></a>
-    <a href="images/gallary/hotel/pic19.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Leo"><img src="images/gallary/hotel/pic19-small.jpg" alt="room"></a>
-    <a href="images/gallary/hotel/pic11.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Sagittarius"><img src="images/gallary/hotel/pic11-small.jpg" alt="room"></a>
-    <a href="images/gallary/hotel/pic12.jpg" data-lightbox="mygallary" data-title="Afrilodge - Outdoor garden"><img src="images/gallary/hotel/pic12-small.jpg" alt="room"></a>
-    <a href="images/gallary/hotel/pic13.jpg" data-lightbox="mygallary" data-title="Afrilodge - Thatched Roof"><img src="images/gallary/hotel/pic13-small.jpg" alt="garden"></a>
-    <a href="images/gallary/hotel/pic15.jpg" data-lightbox="mygallary" data-title="Afrilodge - Outdoor garden"><img src="images/gallary/hotel/pic15-small.jpg" alt="garden"></a>
-    <a href="images/gallary/hotel/pic16.jpg" data-lightbox="mygallary" data-title="Afrilodge - Entrance"><img src="images/gallary/hotel/pic16-small.jpg" alt="garden"></a>
-    <a href="images/gallary/hotel/pic17.jpg" data-lightbox="mygallary" data-title="Afrilodge - Gate view"><img src="images/gallary/hotel/pic17-small.jpg" alt="garden"></a>
-    <a href="images/gallary/hotel/pic18.jpg" data-lightbox="mygallary" data-title="Afrilodge - Gate view"><img src="images/gallary/hotel/pic18-small.jpg" alt="garden"></a>
-    <a href="images/gallary/hotel/pic14.jpg" data-lightbox="mygallary" data-title="Afrilodge - Gate view"><img src="images/gallary/hotel/pic14-small.jpg" alt="garden"></a>
+    <a href="images/gallary/hotel/pic1.jpg" data-lightbox="mygallary" data-title="The Executive Suite - South Africa"><img src="images/gallary/hotel/pic1-small.jpg" alt="room"></a>
+    <a href="images/gallary/hotel/pic2.jpg" data-lightbox="mygallary" data-title="Family Room - Botswana"><img src="images/gallary/hotel/pic2-small.jpg" alt="room"></a>
+    <a href="images/gallary/hotel/pic3.jpg" data-lightbox="mygallary" data-title="Penthouse Suite - Zimbabwe"><img src="images/gallary/hotel/pic3-small.jpg" alt="room"></a>
+    <a href="images/gallary/hotel/pic7.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Nigeria"><img src="images/gallary/hotel/pic7-small.jpg" alt="room"></a>
+    <a href="images/gallary/hotel/pic8.jpg" data-lightbox="mygallary" data-title="The Executive Suite - South Africa"><img src="images/gallary/hotel/pic8-small.jpg" alt="room"></a>
+    <a href="images/gallary/hotel/pic9.jpg" data-lightbox="mygallary" data-title="Meeting Room"><img src="images/gallary/hotel/pic9-small.jpg" alt="room"></a>
+    <a href="images/gallary/hotel/pic19.jpg" data-lightbox="mygallary" data-title="Conference Room 1"><img src="images/gallary/hotel/pic19-small.jpg" alt="room"></a>
+    <a href="images/gallary/hotel/pic11.jpg" data-lightbox="mygallary" data-title="Conference Room 2"><img src="images/gallary/hotel/pic11-small.jpg" alt="room"></a>
+    <a href="images/gallary/hotel/pic12.jpg" data-lightbox="mygallary" data-title="Private Garden"><img src="images/gallary/hotel/pic12-small.jpg" alt="room"></a>
+    <a href="images/gallary/hotel/pic13.jpg" data-lightbox="mygallary" data-title="Private Garden"><img src="images/gallary/hotel/pic13-small.jpg" alt="garden"></a>
+    <a href="images/gallary/hotel/pic15.jpg" data-lightbox="mygallary" data-title="Bar"><img src="images/gallary/hotel/pic15-small.jpg" alt="garden"></a>
+    <a href="images/gallary/hotel/pic16.jpg" data-lightbox="mygallary" data-title="Steak & Grill Restaurant"><img src="images/gallary/hotel/pic16-small.jpg" alt="garden"></a>
+    <a href="images/gallary/hotel/pic17.jpg" data-lightbox="mygallary" data-title="Steak & Grill Restaurant"><img src="images/gallary/hotel/pic17-small.jpg" alt="garden"></a>
+    <a href="images/gallary/hotel/pic18.jpg" data-lightbox="mygallary" data-title="Steak & Grill Restaurant"><img src="images/gallary/hotel/pic18-small.jpg" alt="garden"></a>
+    <a href="images/gallary/hotel/pic14.jpg" data-lightbox="mygallary" data-title="Bar lounge"><img src="images/gallary/hotel/pic14-small.jpg" alt="garden"></a>
     </div>
 </section>
 <!--end Gallary -->

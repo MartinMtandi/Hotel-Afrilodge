@@ -92,7 +92,7 @@
                 <div>
                     <img src="images/hotel/two-beds.jpg" alt="banner">
                 </div>
-                <p><i class="fas fa-map-marker-alt"></i>&nbsp;Location - <span>20 J.M. Nkomo Street, btwn 1<sup>st</sup> Ave & Connaught, Bulawayo</span></p>
+                <p><i class="fas fa-map-marker-alt"></i>&nbsp;Location - <span>20 J.M. Nkomo Street, Btwn 1<sup>st</sup> Ave & Connaught, Bulawayo</span></p>
                 <p><b>More About Us</b></p>
                 <p>The Standard Hotel is in the city centre, hence easy access to the Art Gallery, 
                     the City Hall, Bulawayo Centre, The Museum and City Park. 
@@ -115,7 +115,9 @@
     <!--End About The Standard Hotel-->
     <!--Mission Statement-->
     <div class="vision-box">
-		<p>A journey through the beautiful stars from an African night sky.</p>
+        <div>
+         <p>A journey through the beautiful stars from an African night sky.</p>
+       </div>
 	</div>
     <!--End Mission Statement-->
 

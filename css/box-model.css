@@ -88,31 +88,31 @@
 }
 
 .box1{
-    background: url(../images/afrilodge/full/rm7.jpg);
-    
-}
-
-.box2{
     background: url(../images/afrilodge/full/rm1.jpg);
     
 }
 
-.box3{
+.box2{
     background: url(../images/afrilodge/full/rm2.jpg);
+    
+}
+
+.box3{
+    background: url(../images/afrilodge/full/rm3.jpg);
 }
 
 .box4{
-    background: url(../images/afrilodge/full/rm3.jpg);
+    background: url(../images/afrilodge/full/rm4.jpg);
     
 }
 
 .box5{
-    background: url(../images/afrilodge/full/rm4.jpg);
+    background: url(../images/afrilodge/full/rm5.jpg);
  
 }
 
 .box6{
-    background: url(../images/afrilodge/full/rm5.jpg);
+    background: url(../images/afrilodge/full/rm6.jpg);
 }
 
 

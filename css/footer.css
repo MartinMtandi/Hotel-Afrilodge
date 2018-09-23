@@ -60,6 +60,7 @@ footer section article div p{
     color: gray;
     margin-left: 10px;
     font-family: 'Encode Sans Condensed', sans-serif;
+    padding-top: 5px;
 }
 
 .override{

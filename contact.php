@@ -17,7 +17,7 @@
 <?php require_once('includes/header.html');?>
 <!--End Nav Bar -->
 
-<div class="lodge-parallax booking">
+<div class="lodge-parallax contact">
     <div>
        <p>Contact Us<br><span>-and speak to our friendly staff.</span></p>
     </div>
@@ -52,7 +52,7 @@
             <div class="col-2-wrap">
                 <h2 class="ft-room-xn">Featured Room</h2>
                 <div>
-                    <img src="images/afrilodge/full/rm7.jpg" alt="featured-room">
+                    <img src="images/afrilodge/full/rm1.jpg" alt="featured-room">
                     <h2>Deluxe Room - <span>Tunisia</span></h2>
                     <p >
                         <i class="fas fa-users"></i>&nbsp;2 Guests

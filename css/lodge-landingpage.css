@@ -17,18 +17,20 @@
     background-repeat: no-repeat;
     background-size: cover;
     text-align: right;
-   
 
 }
 
 
 #welcome-lodge{
-    background-image: url("../images/parallex/IMG-20180902-WA0017.jpg");
+    background-image: url("../images/parallex/DSC_9143_edited_edited.jpg");
 }
 
-
 .booking{
-    background-image: url("../images/sliders/image1.jpg");
+    background-image: url("../images/sliders/image5.jpg");
+}
+
+.contact{
+    background-image: url("../images/sliders/DSC_9042_edited.jpg");
 }
 
 .welcome-hotel{
@@ -234,11 +236,32 @@
 }
 
 @media screen and (max-width: 360px) {
-    .lodge-parallax p{
-        font-size: 22px;
-        padding: 6px 12px;
+    .lodge-parallax div p{
+        font-size: 60px;
     }
 
+    .lodge-parallax div p span{
+        font-size: 20px;
+    }
+
+    #welcome-lodge{
+        background-image: url("../images/parallex/mobile-cover.jpg");
+    }
+
+    .lodge-parallax{ 
+        /* The image used */
+        
+        /* Set a specific height */
+        height: 100vh; 
+        line-height: 100vh;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: unset;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    
     .afrilodge-rm-container .afrilodge-rm-wrapper .lg-rm-wrapper img{
         width: 300px;
     }

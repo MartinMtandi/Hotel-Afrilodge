@@ -419,8 +419,34 @@
 
 }
 
+@media screen and (max-width: 370px) {
+    .hotel-containers .about-hotel-wrapper div img, .about-hotel-wrapper{
+        width: 330px;
+    }
+
+    .afri-img-wrapper{
+        background: #fff;
+    }
+
+    #hotel-box2{
+        padding: 0;
+        margin: 0 10px;
+        width: 360px;
+    }
+
+    #hotel-box2 img{
+        display: block;
+        width: 340px;
+        height: 220px;
+         margin-left: auto;
+         margin-right: auto;
+        margin-bottom: 5px;
+         border: none;
+     }
+}
+
 @media screen and (max-width: 320px) {
-    .hotel-containers .about-hotel-wrapper img, .about-hotel-wrapper{
+    .hotel-containers .about-hotel-wrapper div img, .about-hotel-wrapper{
         width: 300px;
      }
 

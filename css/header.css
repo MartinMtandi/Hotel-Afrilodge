@@ -34,6 +34,11 @@ header .h-logo{
 	line-height: 50px;
 	float: left;
 	height: 50px;
+	z-index: 999;
+}
+
+header .h-logo img{
+	margin-top: 13px;
 }
 
 header nav{

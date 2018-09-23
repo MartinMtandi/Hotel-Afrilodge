@@ -9,18 +9,19 @@
 
 button{
 	padding: 7px 10px;
-	color: white;
-	background: var(--theme-color);
+	color: var(--theme-color);
+	background: white;
 	border: 2px solid var(--theme-color);
 	text-transform: uppercase;
 	font-family: 'Titillium Web', sans-serif;
 	letter-spacing: 1px;
+	font-weight: 600;
 }
 
 button:hover{
 	border: 2px solid var(--theme-color);
-	color: var(--theme-color);
-	background: white;
+	color: white;
+	background: var(--theme-color);
 	cursor: pointer;
 }
 

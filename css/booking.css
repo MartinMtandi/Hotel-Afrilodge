@@ -16,12 +16,13 @@ input[type=text],input[type=email], input[type=date], textarea, select {
 
 .booking-col-2 form h1, .ft-room-xn{
     font-size: 26px;
-    font-family: 'Cinzel', serif;
-    font-weight: 600;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: 200;
 }
 
 .check label, .rooms div label, .guest div label, .myhotel label, .booking-wrapper label{
-    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    font-family: 'Encode Sans Condensed', sans-serif;
 }
 
 .booking-wrapper:after, .flex-check:after, .flex-rooms:after{
@@ -36,8 +37,9 @@ input[type=text],input[type=email], input[type=date], textarea, select {
 }
 
 .col-2-wrap div h2{
-    font-family: 'Poiret One', cursive;
+    font-family: 'David Libre', serif;
 }
+
 
 .col-2-wrap{
     display: block;
@@ -48,7 +50,8 @@ input[type=text],input[type=email], input[type=date], textarea, select {
 }
 
 .col-2-wrap div p{
-    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    font-family: 'Encode Sans Condensed', sans-serif;
 }
 
 .col-2-wrap div button{
