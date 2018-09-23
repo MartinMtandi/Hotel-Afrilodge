@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="css/box-model.css">
     <link rel="stylesheet" href="css/services.css">
     <link rel="stylesheet" href="css/chk.css">
+    <link rel="stylesheet" href="css/gallary.css">
     <link rel="stylesheet" href="css/lodge-landingpage.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 </head>
 <body>
@@ -96,7 +98,6 @@ touch with the office or plan your day's activities. Also LCD TVs with Freeview 
         </div>
     </div>
 </section>
- <!--Start Afrilodge Room Display-->
 
 <!--End Afrilodge Room Display-->
 
@@ -112,38 +113,38 @@ touch with the office or plan your day's activities. Also LCD TVs with Freeview 
             <div class="service-box">
                 <div class="border level-1">
                 <h3><i class="fas fa-bed"></i>Bed and Breakfast</h3>
-                <p class="desc">Special comfort prepared to make you feel at home. <span> $80 (Double)</span></p>
+                <p class="desc">Special comfort prepared to make you feel at home. <br><span> $80 (Double)</span></p>
                 </div>
             </div>
             <div class="service-box">
                 <div class="border level-1">
                 <h3><i class="fas fa-torii-gate"></i>Garden Conference</h3>
-                <p class="desc">Learn and grow with peers in an open and relaxing environment. <span> $200</span></p>
+                <p class="desc">Learn and grow with peers in an open and relaxing environment.<br> <span> $200</span></p>
                 </div>
             </div>
             <div class="service-box">
                 <div class="border level-1">
                 <h3><i class="fas fa-cocktail"></i>&nbsp;Cocktail Parties</h3>
-                <p class="desc">When it's time to loosen up we do it with style and class. <span>$300 (Venue)</span></p>
+                <p class="desc">When it's time to loosen up we do it with style and class.<br> <span>$300 (Venue)</span></p>
     
                 </div>
             </div>
             <div class="service-box">
                 <div class="border level-2">
                 <h3><i class="fas fa-gift"></i>&nbsp;Birthday Parties</h3>
-                <p class="desc">For the special moments, we are ideal for all ages. <span>$300 (Venue)</span></p>
+                <p class="desc">For the special moments, we are ideal for all ages.<br> <span>$300 (Venue)</span></p>
                 </div>
             </div>
             <div class="service-box">
                 <div class="border level-2">
                 <h3><i class="fas fa-dove"></i>&nbsp;Weddings</h3>
-                <p class="desc">Special moments need the perfect environment. <span>$600 Venue (Tent for hire $150) up to 60 people</span></p>
+                <p class="desc">Special moments need the perfect environment.<br> <span>$600 Venue (Tent for hire $150) up to 60 people</span></p>
                 </div>
             </div>
             <div class="service-box">
                 <div class="border level-2">
                 <h3><i class="fas fa-utensils"></i>&nbsp;Weekend Braii</h3>
-                <p class="desc">Feast with family, friends or more intimate moments on a weekend. <span> $10 (Per Braai Pack)</span></p>
+                <p class="desc">Feast with family, friends or more intimate moments on a weekend.<br> <span> $10 (Per Braai Pack)</span></p>
                 </div>
             </div>
         </div>
@@ -157,12 +158,34 @@ touch with the office or plan your day's activities. Also LCD TVs with Freeview 
 </div>
 
 <!--End Service Section-->
-
+<!--Gallary -->
+<section class="gallary">
+    <h2>Afrilodge</h2>
+    <h1>Gallary</h1>
+    <div class="mygallary">
+    <a href="images/gallary/lodge/pic1.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Taurus"><img src="images/gallary/lodge/pic1-small.jpg" alt="room"></a>
+    <a href="images/gallary/lodge/pic2.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Sagittarius"><img src="images/gallary/lodge/pic2-small.jpg" alt="room"></a>
+    <a href="images/gallary/lodge/pic3.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Aries"><img src="images/gallary/lodge/pic3-small.jpg" alt="room"></a>
+    <a href="images/gallary/lodge/pic4.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Scorpio"><img src="images/gallary/lodge/pic4-small.jpg" alt="room"></a>
+    <a href="images/gallary/lodge/pic6.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Libra"><img src="images/gallary/lodge/pic6-small.jpg" alt="room"></a>
+    <a href="images/gallary/lodge/pic7.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Taurus"><img src="images/gallary/lodge/pic7-small.jpg" alt="room"></a>
+    <a href="images/gallary/lodge/pic8.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Aries"><img src="images/gallary/lodge/pic8-small.jpg" alt="room"></a>
+    <a href="images/gallary/lodge/pic9.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Aries"><img src="images/gallary/lodge/pic9-small.jpg" alt="room"></a>
+    <a href="images/gallary/lodge/pic10.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Leo"><img src="images/gallary/lodge/pic10-small.jpg" alt="room"></a>
+    <a href="images/gallary/lodge/pic11.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Sagittarius"><img src="images/gallary/lodge/pic11-small.jpg" alt="room"></a>
+    <a href="images/gallary/lodge/pic12.jpg" data-lightbox="mygallary" data-title="Afrilodge - Outdoor garden"><img src="images/gallary/lodge/pic12-small.jpg" alt="room"></a>
+    <a href="images/gallary/lodge/pic13.jpg" data-lightbox="mygallary" data-title="Afrilodge - Thatched Roof"><img src="images/gallary/lodge/pic13-small.jpg" alt="garden"></a>
+    <a href="images/gallary/lodge/pic15.jpg" data-lightbox="mygallary" data-title="Afrilodge - Outdoor garden"><img src="images/gallary/lodge/pic15-small.jpg" alt="garden"></a>
+    <a href="images/gallary/lodge/pic16.jpg" data-lightbox="mygallary" data-title="Afrilodge - Entrance"><img src="images/gallary/lodge/pic16-small.jpg" alt="garden"></a>
+    <a href="images/gallary/lodge/pic17.jpg" data-lightbox="mygallary" data-title="Afrilodge - Gate view"><img src="images/gallary/lodge/pic17-small.jpg" alt="garden"></a>
+    </div>
+</section>
+<!--end Gallary -->
     <!--Footer -->
     <?php require_once('includes/footer.html');?>
     <!--End Footer -->
 
-
+    <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/script.js"></script>
     <script type="text/javascript">

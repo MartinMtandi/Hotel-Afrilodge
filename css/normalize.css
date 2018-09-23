@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel|Inconsolata|Jacques+Francois+Shadow|Nixie+One|Parisienne|Poiret+One|Wire+One|Yesteryear');
+@import url('https://fonts.googleapis.com/css?family=David+Libre|Encode+Sans+Condensed|Playfair+Display+SC|Share+Tech+Mono|Titillium+Web');
 
 :root{
 	--theme-color: #CC9933;
@@ -13,8 +13,7 @@ button{
 	background: var(--theme-color);
 	border: 2px solid var(--theme-color);
 	text-transform: uppercase;
-	font-family: 'Poiret One', cursive;
-	font-weight: 700;
+	font-family: 'Titillium Web', sans-serif;
 	letter-spacing: 1px;
 }
 

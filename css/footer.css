@@ -25,22 +25,23 @@ footer{
 
 .fa-heart, footer p span{
     color: var(--theme-color);
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .col-ms-4 div{
-    padding: 20px;
-    border: 2px solid var(--theme-color);
+    padding: 10px 0 10px 5px;
+    border-left: 2px solid var(--theme-color);
+    border-top: 2px solid var(--theme-color);
     margin: 0 20px 80px 20px;
-    height: 230px
+    height: 250px
 }
 
 .col-ms-4 div a{
     display: block;
     color: gray;
     text-decoration: none;
-    text-align: center;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 10px;
 }
 
 .xm{
@@ -50,21 +51,29 @@ footer{
 footer article div h4{
     text-align: center;
     color: white;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 500;
     font-size: 16px;
 }
 
-footer > p, footer section article div p{
+footer section article div p{
     color: gray;
-    text-align: center;
     margin-left: 10px;
-    margin-right: 10px;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.override{
+    margin-left: 0 !important;
 }
 
 footer hr{
     border: 1px solid var(--theme-color);
+}
+
+footer > p{
+    text-align: center !important;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    color: gray;
 }
 
 @media screen and (max-width: 1024px) {

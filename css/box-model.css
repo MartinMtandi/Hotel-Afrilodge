@@ -17,7 +17,6 @@
     font-family: 'Inconsolata', monospace;
 }
 
-
 .room-summary h1{
     font-size: 30px;
     text-align: center;
@@ -50,6 +49,8 @@
     height: 233px;
     margin: 20px;
     position: relative;
+    border: 1px solid var(--theme-color);
+    border-radius: 5px;
 }
 
 .box-image span{

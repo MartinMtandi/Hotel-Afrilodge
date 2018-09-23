@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/lodge-landingpage.css">
     <link rel="stylesheet" href="css/chk.css">
     <link rel="stylesheet" href="css/box-model.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/gallary.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 </head>
 <body>
@@ -49,7 +51,7 @@
  <!--Start Hotel Room Display-->
 
  <article class="room-summary">
-    <h2>The Standard Room</h2>
+    <h2>The Standard Hotel</h2>
     <h1>Room Summary</h1>
     <p>Discover the beauty of Africa. Rooms are internal and have a palm lined garden with lush fresh plants. It
 is the only hotel in Bulawayo with bidets in each bathroom to enhance personal hygiene. Our rooms are
@@ -110,7 +112,7 @@ tiled with ceramic and exotic wood.</p>
         <div class="service-wrapper">
             <div class="service-box">
                 <div class="border level-1">
-                <h3><i class="fas fa-bed"></i>Accomodation</h3>
+                <h3><i class="fas fa-bed"></i>Accommodation</h3>
                 <p class="desc">The Standard Hotel boasts of 42 rooms on three floors, some rooms with 2 beds and family units. <span></span></p>
                 </div>
             </div>
@@ -132,14 +134,36 @@ tiled with ceramic and exotic wood.</p>
     </div>
     </div>
 </div>
-
+<!--Gallary -->
+<section class="gallary">
+    <h2>The Standard Hotel</h2>
+    <h1>Gallary</h1>
+    <div class="mygallary">
+    <a href="images/gallary/hotel/pic1.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Taurus"><img src="images/gallary/hotel/pic1-small.jpg" alt="room"></a>
+    <a href="images/gallary/hotel/pic2.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Sagittarius"><img src="images/gallary/hotel/pic2-small.jpg" alt="room"></a>
+    <a href="images/gallary/hotel/pic3.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Aries"><img src="images/gallary/hotel/pic3-small.jpg" alt="room"></a>
+    <a href="images/gallary/hotel/pic7.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Taurus"><img src="images/gallary/hotel/pic7-small.jpg" alt="room"></a>
+    <a href="images/gallary/hotel/pic8.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Aries"><img src="images/gallary/hotel/pic8-small.jpg" alt="room"></a>
+    <a href="images/gallary/hotel/pic9.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Aries"><img src="images/gallary/hotel/pic9-small.jpg" alt="room"></a>
+    <a href="images/gallary/hotel/pic19.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Leo"><img src="images/gallary/hotel/pic19-small.jpg" alt="room"></a>
+    <a href="images/gallary/hotel/pic11.jpg" data-lightbox="mygallary" data-title="The Executive Suite - Sagittarius"><img src="images/gallary/hotel/pic11-small.jpg" alt="room"></a>
+    <a href="images/gallary/hotel/pic12.jpg" data-lightbox="mygallary" data-title="Afrilodge - Outdoor garden"><img src="images/gallary/hotel/pic12-small.jpg" alt="room"></a>
+    <a href="images/gallary/hotel/pic13.jpg" data-lightbox="mygallary" data-title="Afrilodge - Thatched Roof"><img src="images/gallary/hotel/pic13-small.jpg" alt="garden"></a>
+    <a href="images/gallary/hotel/pic15.jpg" data-lightbox="mygallary" data-title="Afrilodge - Outdoor garden"><img src="images/gallary/hotel/pic15-small.jpg" alt="garden"></a>
+    <a href="images/gallary/hotel/pic16.jpg" data-lightbox="mygallary" data-title="Afrilodge - Entrance"><img src="images/gallary/hotel/pic16-small.jpg" alt="garden"></a>
+    <a href="images/gallary/hotel/pic17.jpg" data-lightbox="mygallary" data-title="Afrilodge - Gate view"><img src="images/gallary/hotel/pic17-small.jpg" alt="garden"></a>
+    <a href="images/gallary/hotel/pic18.jpg" data-lightbox="mygallary" data-title="Afrilodge - Gate view"><img src="images/gallary/hotel/pic18-small.jpg" alt="garden"></a>
+    <a href="images/gallary/hotel/pic14.jpg" data-lightbox="mygallary" data-title="Afrilodge - Gate view"><img src="images/gallary/hotel/pic14-small.jpg" alt="garden"></a>
+    </div>
+</section>
+<!--end Gallary -->
 <!--End Services List-->
 
     <!--Footer -->
     <?php require_once('includes/footer.html');?>
     <!--End Footer -->
 
-
+    <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/script.js"></script>
     <script type="text/javascript">
