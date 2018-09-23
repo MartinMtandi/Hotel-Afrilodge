@@ -14,19 +14,20 @@
 .room-summary p{
     margin: 0 100px;
     line-height: 23px;
-    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    font-family: 'Encode Sans Condensed', sans-serif;
 }
 
 .room-summary h1{
     font-size: 30px;
     text-align: center;
-    font-family: 'Cinzel', serif;
+    font-family: 'Share Tech Mono', monospace;
     font-weight: 200;
 }
 
 .room-summary h2{
     text-align: center;
-    font-family: 'Poiret One', cursive;
+    font-family: 'David Libre', serif;
     font-weight: 500;
 }
 
@@ -61,7 +62,7 @@
     border: 1px solid var(--theme-color);
     color: var(--theme-color);
     background: white;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 700;
 }
 

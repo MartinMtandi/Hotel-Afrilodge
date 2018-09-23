@@ -67,6 +67,7 @@
     margin: 0 50px;
     text-align: justify;
     line-height: 25px;
+    font-size: 18px;
     font-family: 'Encode Sans Condensed', sans-serif;
 }
 
@@ -311,6 +312,7 @@
 .about-hotel-wrapper p{
     margin: 20px;
     line-height: 25px;
+    font-size: 18px;
     font-family: 'Encode Sans Condensed', sans-serif;
 }
 

@@ -18,7 +18,40 @@
 </head>
 <body>
 <!--Start Nav Bar -->
-<?php require_once('includes/header.html');?>
+<header>
+    <div class="h-logo">
+        <img src="images/hotel-logo.png" alt="logo">
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.php" class="active">Home</a>
+            </li>
+            <li class="sub-menu">
+                <a href="#">Accommodation
+                    <i class="fas fa-sort-down"></i>
+                </a>
+                <ul>
+                    <li>
+                        <a href="lodge.php">Afrilodge</a>
+                    </li>
+                    <li>
+                        <a href="hotel.php">The Standard Hotel</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="booking.php">Reservation</a>
+            </li>
+            <li>
+                <a href="contact.php">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+    </div>
+</header>
 <!--End Nav Bar -->
 
 <div class="lodge-parallax welcome-hotel">

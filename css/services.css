@@ -28,27 +28,27 @@
 .service-container h1{
     font-size: 30px;
     text-align: center;
-    font-family: 'Cinzel', serif;
+    font-family: 'Share Tech Mono', monospace;
     font-weight: 200;
 }
 
 .service-container h2{
     text-align: center;
-    font-family: 'Poiret One', cursive;
+    font-family: 'David Libre', serif;
     font-weight: 500;
 }
 
 
 .desc, .meal-desc{
-    font-size: 18px;
     font-weight: 100;
-    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    font-family: 'Encode Sans Condensed', sans-serif;
 }
 
 .border h3{
     font-size: 22px;
-    font-family: 'Poiret One', cursive;
     font-weight: 700;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .border{

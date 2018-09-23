@@ -7,6 +7,17 @@
     text-align: center;
 }
 
+.gallary h1{
+    font-size: 30px;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: 200;
+}
+
+.gallary h2{
+    font-family: 'David Libre', serif;
+    font-weight: 500;
+}
+
 .mygallary{
     width: 1220px;
     display: block;

@@ -26,9 +26,14 @@ header .logo{
 	color: #fff;
 	height: 50px;
 	line-height: 50px;
-	font-size: 24px;
 	float: left;
-	font-weight: bold;
+}
+
+header .h-logo{
+	color: #fff;
+	line-height: 50px;
+	float: left;
+	height: 50px;
 }
 
 header nav{
@@ -80,7 +85,7 @@ header nav ul li a{
 	color: white;
 	text-decoration: none;
 	display: block;
-	font-size: 16px;
+	font-size: 18px;
 	font-family: 'Titillium Web', sans-serif;
 }
 

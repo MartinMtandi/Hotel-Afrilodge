@@ -53,7 +53,7 @@
     <h1>Room Summary</h1>
     <p>The rooms are made up of a king sized bed as well as tea making and refrigeration facilities. The room is
 equipped with air conditioning and complimentary high-speed internet access allowing you to stay in
-touch with the office or plan your day's activities. Also LCD TVs with Freeview DSTV channels.</p>
+touch with the office or plan your day's activities. Also available is an LCD TVs with Freeview DSTV channels.</p>
 </article>
 
 <section class="view-rooms">

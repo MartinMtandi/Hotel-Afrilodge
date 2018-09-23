@@ -42,7 +42,7 @@
     font-size: 120px;
     color: white;
     padding: 20px 30px;
-    font-family: 'Yesteryear', cursive;
+    font-family: 'Playfair Display SC', serif;
 }
 
 .lodge-parallax div{
@@ -52,8 +52,8 @@
 }
 
 .lodge-parallax p span{
-    font-size: 50px;
-    font-family: 'Parisienne', cursive;
+    font-size: 40px;
+    font-family: 'Encode Sans Condensed', sans-serif;
 }
 
 .lg-rm-wrapper{
