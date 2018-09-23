@@ -62,7 +62,7 @@
           <div class="afri-wrapper">
               <h2>Stay With Our Luxury Rooms</h2>
               <h1>About<br>Afrilodge</h1>
-              <p>We offer accomodation (Bed and Breakfast) at a lowest rate. Each room is equipped with complimentary high-speed Internet access
+              <p>We offer accomodation (Bed and Breakfast). Each room is equipped with complimentary high-speed Internet access
 					allowing you to stay in touch with the office, or plan your day's activities. LCD TV with Freeview DSTV channels. Tea
 					and coffee making facilities also offered.</p>
 			    <button>Check In</button>
