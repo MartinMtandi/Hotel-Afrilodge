@@ -43,7 +43,7 @@
         <option value="5">5</option>
         <option value="+5">+5</option>
     </select>
-  <button type="submit">Check Availability</button>
+  <button type="submit" class="chk-avilability">Check Availability</button>
 </form>
 </section>
 <!--End Check Availability-->
@@ -62,37 +62,37 @@ touch with the office or plan your day's activities. Also available is an LCD TV
             <div class="box">
                 <div class="box-image box1">
                     <span>Taurus - $80.00</span>
-                    <button>Book Now</button>
+                    <button><a href="booking.php" class="hover-btn">Book Now</a></button>
                 </div>
             </div>
             <div class="box">
                 <div class="box-image box2">
                     <span>Sagittarius - $80.00</span>
-                    <button>Book Now</button>
+                    <button><a href="booking.php" class="hover-btn">Book Now</a></button>
                 </div>
             </div>
             <div class="box">
                 <div class="box-image box3">
                     <span>Aries - $80.00</span>
-                    <button>Book Now</button>
+                    <button><a href="booking.php" class="hover-btn">Book Now</a></button>
                 </div>
             </div>
             <div class="box">
                 <div class="box-image box4">
                     <span>Scorpio - $80.00</span>
-                    <button>Book Now</button>
+                    <button><a href="booking.php" class="hover-btn">Book Now</a></button>
                 </div>
             </div>
             <div class="box">
                 <div class="box-image box5">
                     <span>Libra - $80.00</span>
-                    <button>Book Now</button>
+                    <button><a href="booking.php" class="hover-btn">Book Now</a></button>
                 </div>
             </div>
             <div class="box">
                 <div class="box-image box6">
                     <span>Leo - $80.00</span>
-                    <button>Book Now</button>
+                    <button><a href="booking.php" class="hover-btn">Book Now</a></button>
                 </div>
             </div>
         </div>

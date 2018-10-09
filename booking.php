@@ -27,7 +27,7 @@ you feel at home.</span></p>
 <section class="booking-container">
     <div class="booking-wrapper">
         <div class="booking-col-2">
-        <form action="">
+        <form action="database/place_reservation.php" method="POST">
             <h1>Booking Form</h1>
             <div class="flex-check">
                 <div class="check">
@@ -79,12 +79,12 @@ you feel at home.</span></p>
                 </select>
             </div>
             <label for="email">Email</label>
-            <input type="email" id="email">
+            <input type="email" id="email" name="email">
         
             <label for="msg">Write a Note</label>
             <textarea id="msg" name="msg" placeholder="Write something.." style="height:120px"></textarea>
         
-            <button>Submit</button>
+            <button><a type="submit">Submit</a></button>
           </form>
         </div>
         <div class="booking-col-2">
@@ -97,7 +97,7 @@ you feel at home.</span></p>
                         <i class="fas fa-users"></i>&nbsp;2 Guests
                     </p>
                     <p>It has an internal, palm lined garden with lush fresh plants. This room has bidets in the bathroom to enhance personal hygiene. It is tiled with ceramic and exotic wood.</p>
-                    <button>Book Now for $100</button>
+                    <button class="button">Book Now for $100</button>
                 </div>
             </div>
         </div>

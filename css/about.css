@@ -210,6 +210,21 @@
 
 }
 
+@media screen and (max-width: 380px) {
+    .img-sm-4{
+        background: white;
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+
+    .afri-col-2 .afri-img-wrapper .img-sm-4 div img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .afri-col-2 .afri-wrapper p{
         font-size: 14px;
@@ -232,6 +247,12 @@
         margin-left: auto;
         margin-right: auto;
         width: 300px;
+    }
+
+    .img-sm-4{
+        background: white;
+        margin: 0px 0px;
+        padding: 0px 0px;
     }
 }
 

@@ -65,7 +65,7 @@
               <p>We offer accomodation (Bed and Breakfast). Each room is equipped with complimentary high-speed Internet access
 					allowing you to stay in touch with the office, or plan your day's activities. LCD TV with Freeview DSTV channels. Tea
 					and coffee making facilities also offered.</p>
-			    <button>Check In</button>
+			    <button><a href="booking.php" class="btn-redirect">Check In</a></button>
           </div>
       </div>
       <div class="afri-col-2">
@@ -99,10 +99,10 @@
                     Food courts and shops are close by.</p>
                 <p>The Standard Hotel boasts of 42 rooms on three floors, some rooms 
                     with 2 beds and family units. It has an internal, palm lined 
-                    garden with lush fresh plants. There is 2 conferance rooms and an 
+                    garden with lush fresh plants. There are 2 conference rooms and an 
                     executive board room. We also have a Steak and Grill restuarant which 
                     serves sumptuous meals. Spend time in our elegant bar overlooking the city.</p>
-                    <button id="btn-hotel">Book Now</button>
+                    <button id="btn-hotel"><a href="booking.php" class="btn-redirect">Book Now</a></button>
             </div>
         </div>
         <div class="hotel-containers" id="hotel-box2">
@@ -133,7 +133,7 @@
                         <img src="images/fake2.jpg" alt="guest1">
                         <h2>Sharon Mayharm</h2>
                         <p>This place is a dream place! We loved it so much. The property is gorgeous, the rooms are clean and perfect, and everyone who works there is lovely. Couldn't have landed in a better place in Bulawayo!</p>
-                        <button>Book Now</button>
+                        <button><a href="booking.php" class="btn-redirect">Book Now</a></button>
                     </div>
                 </div>
                 <div class="testimony-box">
@@ -141,7 +141,7 @@
                         <img src="images/dixen.jpg" alt="guest2">
                         <h2>Dixen Mangena</h2>
                         <p>This place is great! I extended my stay here a few days since its such a great place to take a breather from. Easy to get into town from here, had the chance to meet the owner who happens to be a very humble person - this place has the best pork chops and fillet. </p>
-                        <button>Book Now</button>
+                        <button><a href="booking.php" class="btn-redirect">Book Now</a></button>
                     </div>
                 </div>
                 <div class="testimony-box">
@@ -149,7 +149,7 @@
                         <img src="images/prima.jpg" alt="guest3">
                         <h2>Martin Mtandi</h2>
                         <p>Excellent hosts and the accommodation is great value for money . The place is beautiful. I first came here for my friend's Private Birthday Party, loved it ever since.</p>
-                        <button>Book Now</button>
+                        <button><a href="booking.php" class="btn-redirect">Book Now</a></button>
                     </div>
                 </div>
             </section>
@@ -157,10 +157,10 @@
     
         <!--End Testimonial section-->
 
-    <!--Footer -->
+    <!--Footer-->
 
     <?php require_once('includes/footer.html');?>
-    <!--End Footer -->
+    <!--End Footer-->
 
 
     <script src="js/jquery-3.1.1.min.js"></script>

@@ -58,14 +58,14 @@
     position: absolute;
     bottom: 15px;
     left: 15px;
-    padding: 8px 14px;
+    padding: 7px 10px;
     border: 1px solid var(--theme-color);
     color: var(--theme-color);
     background: white;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 700;
+    text-transform: uppercase;
 }
-
 
 
 .box-image button{
@@ -73,6 +73,8 @@
     bottom: 15px;
     left: 15px;
     visibility: hidden;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
 }
 
 .box-image:hover button{

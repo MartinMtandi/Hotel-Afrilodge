@@ -1,3 +1,40 @@
+<?php
+    $msg = "";
+    use PHPMailer\PHPMailer\PHPMailer;
+    include_once "PHPMailer/PHPMailer.php";
+    include_once "PHPMailer/Exception.php";
+    include_once "PHPMailer/SMTP.php";
+
+    if (isset($_POST['submit'])){
+        $subject = $_POST['subject'];
+        $email = $_POST['email'];
+        $message = $_POST['message'];
+        
+        $mail = new PHPMailer();
+        //Sending via SMTP
+        $mail->Host = "smtp.gmail.com";
+        //$mail->isSMTP();
+        $mail->SMTPAuth = true;
+        $mail->Username = "mtandimartin@gmail.com";
+        $mail->Password = "poshmark13"; //put your email password
+        $mail->SMTPSecure = "ssl";
+        $mail->Port = 465;
+
+        $mail->addAddress('2014080021@solusi.ac.zw');
+        $mail->setFrom($email);
+        $mail->Subject = $subject;
+        $mail->isHTML(true);
+        $mail->Body = $message;
+
+        if ($mail->send()) {
+            # code...
+            $msg = "Your email has been sent, thank you!!";
+        }else{
+            $msg = "Please try again!";
+        }
+    }
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,12 +63,15 @@
 <section class="booking-container">
     <div class="booking-wrapper">
         <div class="booking-col-2">
-        <form action="">
+        <?php
+            if($msg != ""){
+                echo "$msg<br>";
+            }
+        ?>
+        <form action="contact.php" method="post">
             <h1>Fill Details Below:</h1>
             <label for="name">Name</label>
-            <input type="text" id="name">
-            <label for="phone">Phone No.</label>
-            <input type="text" id="phone">
+            <input type="text" id="name" name="name" placeholder="Enter name">
             <div class="myhotel">
                 <label for="myhotel">Which hotel are you contacting?</label>
                 <select id="myhotel" name="myhotel">
@@ -40,12 +80,13 @@
                 </select>
             </div>
             <label for="email">Email</label>
-            <input type="email" id="email">
-        
+            <input type="email" id="email" name="email" placeholder="Enter personal email">
+            <label for="phone">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Enter title/ref">
             <label for="msg">Write a Message</label>
-            <textarea id="msg" name="msg" placeholder="Write something.." style="height:120px"></textarea>
+            <textarea id="msg" name="message" placeholder="Write something.." style="height:120px"></textarea>
         
-            <button>Send</button>
+            <button type="submit" class="btn-contact">Send</button>
           </form>
         </div>
         <div class="booking-col-2">
@@ -58,7 +99,7 @@
                         <i class="fas fa-users"></i>&nbsp;2 Guests
                     </p>
                     <p>It has an internal, palm lined garden with lush fresh plants. This room has bidets in the bathroom to enhance personal hygiene. It is tiled with ceramic and exotic wood.</p>
-                    <button>Book Now for $80</button>
+                    <button class="button">Book Now for $80</button>
                 </div>
             </div>
         </div>

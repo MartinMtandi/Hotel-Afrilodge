@@ -98,37 +98,37 @@ tiled with ceramic and exotic wood.</p>
             <div class="box">
                 <div class="box-image vbox1">
                     <span>Double Bed Ensuite - $80.00</span>
-                    <button>Family Room Botswana</button>
+                    <button class="button">Family Room Botswana</button>
                 </div>
             </div>
             <div class="box">
                 <div class="box-image vbox2">
                     <span>Kingsize Bed - $100.00</span>
-                    <button>Penthouse Suite Zimbabwe</button>
+                    <button class="button">Penthouse Suite Zimbabwe</button>
                 </div>
             </div>
             <div class="box">
                 <div class="box-image vbox3">
                     <span>Kingsize Bed Ensuite - $70.00</span>
-                    <button>Executive Room Nigeria</button>
+                    <button class="button">Executive Room Nigeria</button>
                 </div>
             </div>
             <div class="box">
                 <div class="box-image vbox4">
                     <span>Kingsize Bed Ensuite - $80.00</span>
-                    <button>Deluxe Room Tunisia</button>
+                    <button class="button">Deluxe Room Tunisia</button>
                 </div>
             </div>
             <div class="box">
                 <div class="box-image vbox5">
                     <span>Double Bed - $60.00</span>
-                    <button>Family Room Namibia</button>
+                    <button class="button">Family Room Namibia</button>
                 </div>
             </div>
             <div class="box">
                 <div class="box-image vbox6">
                     <span>Kingsize Bed - $60.00</span>
-                    <button>Executive Room South Africa</button>
+                    <button class="button">Executive Room South Africa</button>
                 </div>
             </div>
         </div>
