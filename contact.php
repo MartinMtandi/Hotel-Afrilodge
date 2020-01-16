@@ -1,39 +1,4 @@
-<?php
-    $msg = "";
-    use PHPMailer\PHPMailer\PHPMailer;
-    include_once "PHPMailer/PHPMailer.php";
-    include_once "PHPMailer/Exception.php";
-    include_once "PHPMailer/SMTP.php";
 
-    if (isset($_POST['submit'])){
-        $subject = $_POST['subject'];
-        $email = $_POST['email'];
-        $message = $_POST['message'];
-        
-        $mail = new PHPMailer();
-        //Sending via SMTP
-        $mail->Host = "smtp.gmail.com";
-        //$mail->isSMTP();
-        $mail->SMTPAuth = true;
-        $mail->Username = "mtandimartin@gmail.com";
-        $mail->Password = "poshmark13"; //put your email password
-        $mail->SMTPSecure = "ssl";
-        $mail->Port = 465;
-
-        $mail->addAddress('2014080021@solusi.ac.zw');
-        $mail->setFrom($email);
-        $mail->Subject = $subject;
-        $mail->isHTML(true);
-        $mail->Body = $message;
-
-        if ($mail->send()) {
-            # code...
-            $msg = "Your email has been sent, thank you!!";
-        }else{
-            $msg = "Please try again!";
-        }
-    }
-?>
 
 <!DOCTYPE html>
 <html>
@@ -64,12 +29,15 @@
     <div class="booking-wrapper">
         <div class="booking-col-2">
         <?php
+            $msg = '';
             if($msg != ""){
                 echo "$msg<br>";
             }
         ?>
-        <form action="contact.php" method="post">
+        <form  method="post">
             <h1>Fill Details Below:</h1>
+            
+            <div id="display_results" style="text-align: center;"></div>
             <label for="name">Name</label>
             <input type="text" id="name" name="name" placeholder="Enter name">
             <div class="myhotel">
@@ -84,10 +52,12 @@
             <label for="phone">Subject</label>
             <input type="text" id="subject" name="subject" placeholder="Enter title/ref">
             <label for="msg">Write a Message</label>
-            <textarea id="msg" name="message" placeholder="Write something.." style="height:120px"></textarea>
+            <textarea id="message" name="message" placeholder="Write something.." style="height:120px"></textarea>
         
-            <button type="submit" class="btn-contact">Send</button>
+            <button type="button" id="contactus_btn" class="btn-contact">Send</button>
           </form>
+
+
         </div>
         <div class="booking-col-2">
             <div class="col-2-wrap">
@@ -128,6 +98,29 @@
             })
         })
     </script>
+
+
+
+
+<!---------Mail Plugin By Peter Mbwkeu --------------------->
+<div id="display_results"> </div>
+<script>
+    $(function(){ 
+        $("#contactus_btn").click(function(){
+            $("#display_results").html("<img src='publicMail/loader.gif' alt='Loading...' >");
+            var hotel = $("#myhotel").val();
+            var name = $("#name").val();  
+            var subject = $("#subject").val();
+            var message = $("#message").val(); 
+            var email = $("#email").val(); 
+        
+        $.post("publicMail/emails.php",{name:name,subject:subject,message:message,email:email,hotel:hotel},function(data){
+            $("#display_results").html(data);											
+        }); }); });
+
+</script>  
+<!----------------------------------Mail Plugin By Peter Mbwkeu --------------------->
+
     
 </body>
 </html>

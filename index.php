@@ -90,7 +90,9 @@
         <div class="hotel-containers" id="hotel-box1">
             <div class="about-hotel-wrapper">
                 <div>
-                    <img src="images/hotel/two-beds.jpg" alt="banner">
+                <video width="100%" autoplay loop controls>
+                    <source src="videos/promovid.mp4" type="video/mp4">
+                </video>
                 </div>
                 <p><i class="fas fa-map-marker-alt"></i>&nbsp;Location - <span>20 J.M. Nkomo Street, Btwn 1<sup>st</sup> Ave & Connaught, Bulawayo</span></p>
                 <p><b>More About Us</b></p>
@@ -130,24 +132,24 @@
             <section class="testimony-flex">
                 <div class="testimony-box">
                     <div>
-                        <img src="images/fake2.jpg" alt="guest1">
-                        <h2>Sharon Mayharm</h2>
+                        <img src="images/female.jpg" alt="guest1">
+                        <h2>Mrs Fadzai Mudzingwa</h2>
                         <p>This place is a dream place! We loved it so much. The property is gorgeous, the rooms are clean and perfect, and everyone who works there is lovely. Couldn't have landed in a better place in Bulawayo!</p>
                         <button><a href="booking.php" class="btn-redirect">Book Now</a></button>
                     </div>
                 </div>
                 <div class="testimony-box">
                     <div>
-                        <img src="images/dixen.jpg" alt="guest2">
-                        <h2>Dixen Mangena</h2>
+                        <img src="images/male1.jpg" alt="guest2">
+                        <h2>Dr Ndabezinhle Sibanda</h2>
                         <p>This place is great! I extended my stay here a few days since its such a great place to take a breather from. Easy to get into town from here, had the chance to meet the owner who happens to be a very humble person - this place has the best pork chops and fillet. </p>
                         <button><a href="booking.php" class="btn-redirect">Book Now</a></button>
                     </div>
                 </div>
                 <div class="testimony-box">
                     <div>
-                        <img src="images/prima.jpg" alt="guest3">
-                        <h2>Martin Mtandi</h2>
+                        <img src="images/male2.jpg" alt="guest3">
+                        <h2>Jackson Lunga</h2>
                         <p>Excellent hosts and the accommodation is great value for money . The place is beautiful. I first came here for my friend's Private Birthday Party, loved it ever since.</p>
                         <button><a href="booking.php" class="btn-redirect">Book Now</a></button>
                     </div>
@@ -173,8 +175,8 @@
             $('ul li').click(function () {
                 $(this).siblings().removeClass('active');
                 $(this).toggleClass('active');
-            })
-        })
+            });
+        });
     </script>
 </body>
 
