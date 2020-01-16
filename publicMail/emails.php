@@ -1,8 +1,6 @@
 
 
  	<?php
-//	 error_reporting(0); // Turn off all error reporting
-
   	//-----------------------Email Library ------------------------------
 	  use PHPMailer\PHPMailer\PHPMailer;
 	  use PHPMailer\PHPMailer\Exception;
@@ -87,6 +85,8 @@ if(!empty($email)){
 
 		}
 
+		
+
 		$from_email = $email;
 		$from_name = $name;
 		$subject = "Correspondence from ". $hotel ." : ".$subjecto;
@@ -99,6 +99,11 @@ if(!empty($email)){
 		echo "<p class='alert alert-primary'> Your message have been successfully sent. </p>";	
 	}
  
+  
+
+ 
+
+  
 	function email($email,$recipients,$from_email,$from_name,$subject,$message){
  
  
@@ -121,19 +126,13 @@ if(!empty($email)){
 			$email->SMTPKeepAlive = true; 
 	 
 		
-			$email->Username = 'reception@thestandardhotel.co.zw';
-			$email->Password = 'mainstreet';
-
-			
-	        $email->setFrom($from_email, $from_name );
-			
-			$email->addReplyTo($from_email, $from_name); 
+			$email->Username = "reception@afrilodge.co.zw";
+			$email->Password = "2EeH3k-VT";
+			$email->setFrom($from_email, $from_name );  //('reception@afrilodge.co.zw', 'Hotel- Afrilodge'); 
 		 
-
+			$email->addReplyTo($from_email, $from_name );
 			$email->From = $from_email;
-
 			$email->FromName = $from_name;
-			
 			$email->Subject = $subject;
 			$email->Body = $message;
 			$email->IsHTML(true); 
@@ -165,7 +164,7 @@ if(!empty($email)){
 			}
 			if($email->send())
 			{
-				return  $from_name;  // "Message has been sent";
+				return "Message has been sent";
 			}
 			else
 			{

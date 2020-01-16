@@ -86,9 +86,7 @@
 
 
     <script src="js/jquery-3.1.1.min.js"></script>
-
     <script src="js/script.js"></script>
-
     <script type="text/javascript">
         $(document).ready(function () {
             $('.menu-toggle').click(function () {
@@ -109,7 +107,7 @@
 <script>
     $(function(){ 
         $("#contactus_btn").click(function(){
-            $("#display_results").html("<img src='publicMail/loader.gif' alt='Loading...' >"); 
+            $("#display_results").html("<img src='publicMail/loader.gif' alt='Loading...' >");
             var hotel = $("#myhotel").val();
             var name = $("#name").val();  
             var subject = $("#subject").val();
@@ -120,21 +118,21 @@
             $("#display_results").html(data);											
         }); }); });
 
-</script>
+</script>  
+<!----------------------------------Mail Plugin By Peter Mbwkeu --------------------->
+
     
 </body>
-  
-<!----------------------------------Mail Plugin By Peter Mbwkeu --------------------->
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/5e2068f227773e0d832ddf45/default';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-</script>
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/5e2068f227773e0d832ddf45/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
 </html>
