@@ -1,6 +1,8 @@
 
 
  	<?php
+	 error_reporting(0); // Turn off all error reporting
+
   	//-----------------------Email Library ------------------------------
 	  use PHPMailer\PHPMailer\PHPMailer;
 	  use PHPMailer\PHPMailer\Exception;
@@ -77,11 +79,11 @@ if(!empty($email)){
 
 		if($hotel == "lodge")
 		{
-			//$recipients = "afrilodge@yahoo.com";
+			$recipients = "afrilodge@yahoo.com";
 		}
 		else
 		{
-			//$recipients = "thestandardhotel2013@gmail.com";
+			$recipients = "thestandardhotel2013@gmail.com";
 
 		}
 
@@ -104,7 +106,7 @@ if(!empty($email)){
 		//	$email->SMTPDebug = 1;
 		
 			$email->SMTPSecure = 'ssl';  // Enable TLS encryption, `ssl` also accepted
-			$email->Host = 'smtp.gmail.com';  // 'smtp.gmail.com';// Specify main and backup SMTP servers
+			$email->Host = 'mail.afrilodge.co.zw';  // 'smtp.gmail.com';// Specify main and backup SMTP servers
 			//$email->SMTPDebug = 1;
 			$email->Port = 465;
 			$email->SMTPOptions = array(
@@ -119,8 +121,8 @@ if(!empty($email)){
 			$email->SMTPKeepAlive = true; 
 	 
 		
-			$email->Username = 'mtandimartin@gmail.com';
-			$email->Password = 'poshmark13';
+			$email->Username = 'reception@thestandardhotel.co.zw';
+			$email->Password = 'mainstreet';
 
 			
 	        $email->setFrom($from_email, $from_name );
