@@ -90,9 +90,7 @@
         <div class="hotel-containers" id="hotel-box1">
             <div class="about-hotel-wrapper">
                 <div>
-                <video width="100%" autoplay loop controls>
-                    <source src="videos/promovid.mp4" type="video/mp4">
-                </video>
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/OzHoXVGPxdg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <p><i class="fas fa-map-marker-alt"></i>&nbsp;Location - <span>20 J.M. Nkomo Street, Btwn 1<sup>st</sup> Ave & Connaught, Bulawayo</span></p>
                 <p><b>More About Us</b></p>
