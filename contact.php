@@ -115,8 +115,6 @@
             var subject = $("#subject").val();
             var message = $("#message").val(); 
             var email = $("#email").val(); 
-
-            alert(email);
         
         $.post("publicMail/emails.php",{name:name,subject:subject,message:message,email:email,hotel:hotel},function(data){
             $("#display_results").html(data);											
