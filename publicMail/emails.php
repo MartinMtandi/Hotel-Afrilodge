@@ -1,7 +1,7 @@
 
 
  	<?php
-	 error_reporting(0); // Turn off all error reporting
+//	 error_reporting(0); // Turn off all error reporting
 
   	//-----------------------Email Library ------------------------------
 	  use PHPMailer\PHPMailer\PHPMailer;
